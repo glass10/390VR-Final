@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-04-07T13:38:57.834-04:00
+  initializedAtString: 2019-04-07T13:33:37.708-04:00
+  log:
+  - commitID: c1a47301190b38887b880b381d0dfe8adc8bff6e
+    mergeA: 
+    mergeB: 
+    authorName: Cameron Glass
+    authorEmail: glass10@purdue.edu
+    commitEmail: glass10@purdue.edu
+    commitName: Cameron Glass
+    summary: Backlog and Test Plan added
+    description: 
+    timeString: 2019-01-28T19:12:44.000-05:00
+    commitTimeString: 2019-01-28T19:12:44.000-05:00
+    changes:
+    - path: Documents/CS408/Totem/Totem
+      fullPath: /Users/cameron/Documents/CS408/Totem/Totem
+      projectPath: ../../CS408/Totem/Totem
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 953ff323f409e43f2e2323c90e6b39f19f7928f7
+    mergeA: 
+    mergeB: 
+    authorName: Cameron Glass
+    authorEmail: glass10@purdue.edu
+    commitEmail: glass10@purdue.edu
+    commitName: Cameron Glass
+    summary: Add Contact function and Event function
+    description: 
+    timeString: 2017-07-31T17:51:47.000-04:00
+    commitTimeString: 2017-07-31T17:51:47.000-04:00
+    changes:
+    - path: Desktop/UkPolice/IntentsSchema
+      fullPath: /Users/cameron/Desktop/UkPolice/IntentsSchema
+      projectPath: ../../../Desktop/UkPolice/IntentsSchema
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Desktop/UkPolice/README.md
+      fullPath: /Users/cameron/Desktop/UkPolice/README.md
+      projectPath: ../../../Desktop/UkPolice/README.md
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Desktop/UkPolice/SampleUtterances
+      fullPath: /Users/cameron/Desktop/UkPolice/SampleUtterances
+      projectPath: ../../../Desktop/UkPolice/SampleUtterances
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Desktop/UkPolice/index.js
+      fullPath: /Users/cameron/Desktop/UkPolice/index.js
+      projectPath: ../../../Desktop/UkPolice/index.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documents/iOS Dev/GG Calculator/GG Calculator.xcodeproj/project.pbxproj
+      fullPath: /Users/cameron/Documents/iOS Dev/GG Calculator/GG Calculator.xcodeproj/project.pbxproj
+      projectPath: ../../iOS Dev/GG Calculator/GG Calculator.xcodeproj/project.pbxproj
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documents/iOS Dev/GG Calculator/GG Calculator.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+      fullPath: /Users/cameron/Documents/iOS Dev/GG Calculator/GG Calculator.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+      projectPath: ../../iOS Dev/GG Calculator/GG Calculator.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documents/iOS Dev/GG Calculator/GG Calculator.xcodeproj/project.xcworkspace/xcuserdata/cameron.xcuserdatad/UserInterfaceState.xcuserstate
+      fullPath: /Users/cameron/Documents/iOS Dev/GG Calculator/GG Calculator.xcodeproj/project.xcworkspace/xcuserdata/cameron.xcuserdatad/UserInterfaceState.xcuserstate
+      projectPath: ../../iOS Dev/GG Calculator/GG Calculator.xcodeproj/project.xcworkspace/xcuserdata/cameron.xcuserdatad/UserInterfaceState.xcuserstate
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documents/iOS Dev/GG Calculator/GG Calculator.xcodeproj/xcuserdata/cameron.xcuserdatad/xcschemes/GG
+        Calculator.xcscheme
+      fullPath: /Users/cameron/Documents/iOS Dev/GG Calculator/GG Calculator.xcodeproj/xcuserdata/cameron.xcuserdatad/xcschemes/GG
+        Calculator.xcscheme
+      projectPath: ../../iOS Dev/GG Calculator/GG Calculator.xcodeproj/xcuserdata/cameron.xcuserdatad/xcschemes/GG
+        Calculator.xcscheme
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documents/iOS Dev/GG Calculator/GG Calculator.xcodeproj/xcuserdata/cameron.xcuserdatad/xcschemes/xcschememanagement.plist
+      fullPath: /Users/cameron/Documents/iOS Dev/GG Calculator/GG Calculator.xcodeproj/xcuserdata/cameron.xcuserdatad/xcschemes/xcschememanagement.plist
+      projectPath: ../../iOS Dev/GG Calculator/GG Calculator.xcodeproj/xcuserdata/cameron.xcuserdatad/xcschemes/xcschememanagement.plist
+      originalPath: 
+      status: 4
+      staged: 0
