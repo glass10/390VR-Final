@@ -13,14 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-18T18:11:20.933-04:00
+  lastUpdatedAtString: 2019-04-18T19:39:44.025-04:00
   initializedAtString: 2019-04-18T11:30:53.883-04:00
   entries:
-  - path: Assets/Scenes/galagaMoveShip.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/galagaMoveShip.cs
-    projectPath: Assets/Scenes/galagaMoveShip.cs
+  - path: Assets/Scenes/GameSelection.unity
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/GameSelection.unity
+    projectPath: Assets/Scenes/GameSelection.unity
     originalPath: 
     status: 3
+    staged: 0
+  - path: Assets/Scenes/updateLeaderboard.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/updateLeaderboard.cs
+    projectPath: Assets/Scenes/updateLeaderboard.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/updateLeaderboard.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/updateLeaderboard.cs.meta
+    projectPath: Assets/Scenes/updateLeaderboard.cs.meta
+    originalPath: 
+    status: 1
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/assetDatabase3
