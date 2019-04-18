@@ -13,26 +13,176 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-18T12:17:30.158-04:00
+  lastUpdatedAtString: 2019-04-18T15:32:06.839-04:00
   initializedAtString: 2019-04-18T11:30:53.883-04:00
   entries:
+  - path: Assets/NavMeshComponents
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents
+    projectPath: Assets/NavMeshComponents
+    originalPath: 
+    status: 5
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor.meta
+    projectPath: Assets/NavMeshComponents/Editor.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs.meta
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef.meta
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs.meta
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs.meta
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs.meta
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs.meta
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs.meta
+    projectPath: Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts.meta
+    projectPath: Assets/NavMeshComponents/Scripts.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef
+    projectPath: Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef.meta
+    projectPath: Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts/NavMeshLink.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts/NavMeshLink.cs
+    projectPath: Assets/NavMeshComponents/Scripts/NavMeshLink.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts/NavMeshLink.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts/NavMeshLink.cs.meta
+    projectPath: Assets/NavMeshComponents/Scripts/NavMeshLink.cs.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts/NavMeshModifier.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts/NavMeshModifier.cs
+    projectPath: Assets/NavMeshComponents/Scripts/NavMeshModifier.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts/NavMeshModifier.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts/NavMeshModifier.cs.meta
+    projectPath: Assets/NavMeshComponents/Scripts/NavMeshModifier.cs.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
+    projectPath: Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs.meta
+    projectPath: Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts/NavMeshSurface.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts/NavMeshSurface.cs
+    projectPath: Assets/NavMeshComponents/Scripts/NavMeshSurface.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/NavMeshComponents/Scripts/NavMeshSurface.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/NavMeshComponents/Scripts/NavMeshSurface.cs.meta
+    projectPath: Assets/NavMeshComponents/Scripts/NavMeshSurface.cs.meta
+    originalPath: 
+    status: 4
+    staged: 1
   - path: Assets/Scenes/Galaga.unity
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Galaga.unity
     projectPath: Assets/Scenes/Galaga.unity
     originalPath: 
     status: 3
-    staged: 0
-  - path: Assets/Scenes/GameSelection.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/GameSelection.unity
-    projectPath: Assets/Scenes/GameSelection.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scenes/GameSelection.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/GameSelection.unity.meta
-    projectPath: Assets/Scenes/GameSelection.unity.meta
-    originalPath: 
-    status: 1
     staged: 0
   - path: Assets/Scenes/Pacman.unity
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Pacman.unity
@@ -40,57 +190,125 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scenes/SampleScene.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/SampleScene.unity
-    projectPath: Assets/Scenes/SampleScene.unity
+  - path: Assets/Scenes/Pacman/NavMesh-Navmesh 1.asset
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Pacman/NavMesh-Navmesh
+      1.asset
+    projectPath: Assets/Scenes/Pacman/NavMesh-Navmesh 1.asset
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
-  - path: Assets/Scenes/SampleScene.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/SampleScene.unity.meta
-    projectPath: Assets/Scenes/SampleScene.unity.meta
+  - path: Assets/Scenes/Pacman/NavMesh-Navmesh 1.asset.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Pacman/NavMesh-Navmesh
+      1.asset.meta
+    projectPath: Assets/Scenes/Pacman/NavMesh-Navmesh 1.asset.meta
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/assetDatabase3
     projectPath: Library/assetDatabase3
     originalPath: 
-    status: 3
+    status: 9
     staged: 0
+  - path: Library/gfu/cache/branches.yaml
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    status: 3
+    staged: 1
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 1
   - path: Library/gfu/cache/gitstatusentries.yaml
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
-    status: 3
+    status: 9
     staged: 0
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
-    status: 3
+    status: 9
     staged: 0
-  - path: Library/metadata/0e/0ef30f03b5a734c988bce4710d93f4b3
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/0e/0ef30f03b5a734c988bce4710d93f4b3
-    projectPath: Library/metadata/0e/0ef30f03b5a734c988bce4710d93f4b3
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/0e/0ef30f03b5a734c988bce4710d93f4b3.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/0e/0ef30f03b5a734c988bce4710d93f4b3.info
-    projectPath: Library/metadata/0e/0ef30f03b5a734c988bce4710d93f4b3.info
+  - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    status: 3
+    staged: 1
+  - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+  - path: Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+    projectPath: Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    status: 3
+    staged: 1
+  - path: Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb
+    projectPath: Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/ScriptMapper
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptMapper
-    projectPath: Library/ScriptMapper
+  - path: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 1
+  - path: Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 1
+  - path: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    originalPath: 
+    status: 3
+    staged: 1
+  - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 1
+  - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.pdb
     originalPath: 
     status: 3
     staged: 0
@@ -98,17 +316,11 @@ MonoBehaviour:
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/StateCache/Hierarchy/d7e798-mainStage.json
     projectPath: Library/StateCache/Hierarchy/d7e798-mainStage.json
     originalPath: 
-    status: 3
+    status: 9
     staged: 0
   - path: Library/StateCache/SceneView/49a8a7-mainStage.json
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/StateCache/SceneView/49a8a7-mainStage.json
     projectPath: Library/StateCache/SceneView/49a8a7-mainStage.json
     originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings/ProjectSettings.asset
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/ProjectSettings/ProjectSettings.asset
-    projectPath: ProjectSettings/ProjectSettings.asset
-    originalPath: 
-    status: 3
+    status: 9
     staged: 0
