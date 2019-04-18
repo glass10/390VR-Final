@@ -597,6 +597,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10.228247, y: 4.267086, z: 11.603618}
   m_Center: {x: 0, y: -0.0000029802322, z: 0}
+--- !u!1 &672675606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222,
+    type: 3}
+  m_PrefabInstance: {fileID: 205419241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &672675610
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672675606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.491302, y: 2.8077502, z: 10.850525}
+  m_Center: {x: 0, y: -0.0000056624413, z: 0.0000011920929}
 --- !u!1001 &713916737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -854,7 +873,7 @@ GameObject:
   - component: {fileID: 793291090}
   - component: {fileID: 793291089}
   m_Layer: 0
-  m_Name: Backdrop Stars (2)
+  m_Name: Backdrop Stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -965,7 +984,7 @@ GameObject:
   - component: {fileID: 977194931}
   - component: {fileID: 977194930}
   m_Layer: 0
-  m_Name: Backdrop Stars (1)
+  m_Name: Backdrop Stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1063,6 +1082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_shotPrefab: {fileID: 136330, guid: 9a0c3383523899643a8d0661cfaca4e4, type: 3}
+  score: 0
 --- !u!1 &1095007498
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,7 +1191,7 @@ GameObject:
   - component: {fileID: 1096825118}
   - component: {fileID: 1096825117}
   m_Layer: 0
-  m_Name: Backdrop Stars (2)
+  m_Name: Backdrop Stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1446,7 +1466,7 @@ GameObject:
   - component: {fileID: 1259728804}
   - component: {fileID: 1259728803}
   m_Layer: 0
-  m_Name: Backdrop Stars (1)
+  m_Name: Backdrop Stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1959,6 +1979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_shotPrefab: {fileID: 136330, guid: 9a0c3383523899643a8d0661cfaca4e4, type: 3}
+  score: 0
 --- !u!1 &1525647458
 GameObject:
   m_ObjectHideFlags: 0

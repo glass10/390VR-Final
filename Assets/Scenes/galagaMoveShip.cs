@@ -7,6 +7,7 @@ public class galagaMoveShip : MonoBehaviour
     GameObject ship;
     private RaycastHit hit;
     public GameObject m_shotPrefab;
+    public int score;
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +60,58 @@ public class galagaMoveShip : MonoBehaviour
             if (Physics.Raycast(ship.transform.position, fwd * 500, out hit, 200))
             {
                 Debug.Log("Hit " + hit.transform.name);
+                if(hit.transform.name != "Backdrop Stars")
+                {
+                    // Get gameobj from ship hit
+                    GameObject obj = GameObject.Find(hit.transform.name);
+                    Debug.Log(hit.transform.name + " destroyed");
+
+                    // Update Score
+                    /* Bee: In formation    50
+                        Bee: Diving 100
+                        Butterfly: In formation 80
+                        Butterfly: Diving   160 
+                        Boss Galaga: In formation   150
+                        Boss Galaga: Diving alone   400                      
+                        */
+                    if (obj.name.Contains("Green")) //Bee
+                    {
+                        if(obj.tag == "Diving")
+                        {
+                            score += 100;
+                        }
+                        else
+                        {
+                            score += 50;
+                        }
+                    }
+                    else if (obj.name.Contains("Yellow")) //Butterfly
+                    {
+                        if (obj.tag == "Diving")
+                        {
+                            score += 160;
+                        }
+                        else
+                        {
+                            score += 80;
+                        }
+                    }
+                    else if (obj.name.Contains("Orange")) //Boss Galaga
+                    {
+                        if (obj.tag == "Diving")
+                        {
+                            score += 400;
+                        }
+                        else
+                        {
+                            score += 150;
+                        }
+                    }
+                    Debug.Log("Score: " + score);
+
+                    // Destroy game object
+                    GameObject.Destroy(obj);
+                }
             }
         }
     }
