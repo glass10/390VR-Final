@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-04-13T17:01:06.493-04:00
-  initializedAtString: 2019-04-13T17:01:06.480-04:00
+  lastUpdatedAtString: 2019-04-18T11:08:29.807-04:00
+  initializedAtString: 2019-04-18T11:07:40.843-04:00
   localBranches:
-  - name: master
+  - name: audrey
     tracking: 
+  - name: master
+    tracking: origin/master
   remoteBranches:
-  - name: origin/master
+  - name: origin/HEAD
     tracking: '[None]'
   remotes:
   - name: origin
@@ -31,22 +33,28 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - audrey
     - master
     values:
-    - name: master
+    - name: audrey
       remote:
         name: 
         url: 
       trackingBranch: 
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/glass10/390VR-Final.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - master
+      - HEAD
     subKeyValues:
     - Values:
-      - name: master
+      - name: HEAD
         remote:
           name: origin
           url: https://github.com/glass10/390VR-Final.git
