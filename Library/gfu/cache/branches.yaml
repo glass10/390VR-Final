@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-04-18T11:37:38.552-04:00
   initializedAtString: 2019-04-18T11:07:40.843-04:00
+=======
+  lastUpdatedAtString: 2019-04-17T23:57:02.644-04:00
+  initializedAtString: 2019-04-17T23:56:36.397-04:00
+>>>>>>> 5e15802a786fec49df33a1754cdebaff8974aa65
   localBranches:
   - name: audrey
     tracking: origin/audrey

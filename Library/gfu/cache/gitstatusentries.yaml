@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-04-18T11:30:56.302-04:00
   initializedAtString: 2019-04-17T21:58:54.974-04:00
   entries:
@@ -21,6 +22,478 @@ MonoBehaviour:
     projectPath: Assets/NavMeshComponents
     originalPath: 
     status: 3
+=======
+  lastUpdatedAtString: 2019-04-18T00:33:25.345-04:00
+  initializedAtString: 2019-04-17T22:22:38.479-04:00
+  entries:
+  - path: Assets/Scenes/Galaga.unity
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Galaga.unity
+    projectPath: Assets/Scenes/Galaga.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scenes/galagaMoveShip.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/galagaMoveShip.cs
+    projectPath: Assets/Scenes/galagaMoveShip.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/VolumetricLines.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines.meta
+    projectPath: Assets/VolumetricLines.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleMaterials.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleMaterials.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleMaterials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTerrain.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTerrain.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTerrain.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTextures.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTextures.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTextures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/LaserCannon.unity
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/LaserCannon.unity
+    projectPath: Assets/VolumetricLines/ExampleScenes/LaserCannon.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/LaserCannon.unity.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/LaserCannon.unity.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/LaserCannon.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/StaticLines.unity
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/StaticLines.unity
+    projectPath: Assets/VolumetricLines/ExampleScenes/StaticLines.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/ExampleScenes/StaticLines.unity.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/StaticLines.unity.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/StaticLines.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Materials.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Materials.meta
+    projectPath: Assets/VolumetricLines/Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat
+    projectPath: Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat.meta
+    projectPath: Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat
+    projectPath: Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat.meta
+    projectPath: Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Prefabs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs.meta
+    projectPath: Assets/VolumetricLines/Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab.meta
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab.meta
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab.meta
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts.meta
+    projectPath: Assets/VolumetricLines/Scripts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/Utils.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/Utils.meta
+    projectPath: Assets/VolumetricLines/Scripts/Utils.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs
+    projectPath: Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders.meta
+    projectPath: Assets/VolumetricLines/Shaders.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/_SimpleShader.cginc
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/_SimpleShader.cginc
+    projectPath: Assets/VolumetricLines/Shaders/_SimpleShader.cginc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/_SimpleShader.cginc.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/_SimpleShader.cginc.meta
+    projectPath: Assets/VolumetricLines/Shaders/_SimpleShader.cginc.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/_StripShader.cginc
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/_StripShader.cginc
+    projectPath: Assets/VolumetricLines/Shaders/_StripShader.cginc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/_StripShader.cginc.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/_StripShader.cginc.meta
+    projectPath: Assets/VolumetricLines/Shaders/_StripShader.cginc.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/Additive.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Additive.shader
+    projectPath: Assets/VolumetricLines/Shaders/Additive.shader
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/Additive.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Additive.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/Additive.shader.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/AlphaBlended.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/AlphaBlended.shader
+    projectPath: Assets/VolumetricLines/Shaders/AlphaBlended.shader
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/AlphaBlended.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/AlphaBlended.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/AlphaBlended.shader.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/Fast-Additive.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Fast-Additive.shader
+    projectPath: Assets/VolumetricLines/Shaders/Fast-Additive.shader
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/Fast-Additive.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Fast-Additive.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/Fast-Additive.shader.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader
+    projectPath: Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/Strip-Additive.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Strip-Additive.shader
+    projectPath: Assets/VolumetricLines/Shaders/Strip-Additive.shader
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/Strip-Additive.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Strip-Additive.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/Strip-Additive.shader.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader
+    projectPath: Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader.meta
+    originalPath: 
+    status: 1
+>>>>>>> 5e15802a786fec49df33a1754cdebaff8974aa65
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/assetDatabase3
@@ -46,6 +519,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
+=======
+  - path: Library/ScriptMapper
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptMapper
+    projectPath: Library/ScriptMapper
+    originalPath: 
+    status: 3
+    staged: 0
+>>>>>>> 5e15802a786fec49df33a1754cdebaff8974aa65
   - path: Library/shadercompiler-UnityShaderCompiler0.log
     fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/shadercompiler-UnityShaderCompiler0.log
     projectPath: Library/shadercompiler-UnityShaderCompiler0.log
