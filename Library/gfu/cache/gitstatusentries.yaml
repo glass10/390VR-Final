@@ -13,1387 +13,480 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-17T23:51:26.692-04:00
+  lastUpdatedAtString: 2019-04-18T00:33:25.345-04:00
   initializedAtString: 2019-04-17T22:22:38.479-04:00
   entries:
   - path: Assets/Scenes/Galaga.unity
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Galaga.unity
     projectPath: Assets/Scenes/Galaga.unity
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scenes/Galaga.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Galaga.unity.meta
-    projectPath: Assets/Scenes/Galaga.unity.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets/Scenes/galagaMoveShip.cs
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/galagaMoveShip.cs
     projectPath: Assets/Scenes/galagaMoveShip.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scenes/galagaMoveShip.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/galagaMoveShip.cs.meta
-    projectPath: Assets/Scenes/galagaMoveShip.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials.meta
-    projectPath: Assets/StarfieldMaterials.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/DemoMaterials.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/DemoMaterials.meta
-    projectPath: Assets/StarfieldMaterials/DemoMaterials.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/DemoMaterials/Nebu_far.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/DemoMaterials/Nebu_far.mat
-    projectPath: Assets/StarfieldMaterials/DemoMaterials/Nebu_far.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/DemoMaterials/Nebu_far.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/DemoMaterials/Nebu_far.mat.meta
-    projectPath: Assets/StarfieldMaterials/DemoMaterials/Nebu_far.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/DemoMaterials/Starfield_01_Material.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/DemoMaterials/Starfield_01_Material.mat
-    projectPath: Assets/StarfieldMaterials/DemoMaterials/Starfield_01_Material.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/DemoMaterials/Starfield_01_Material.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/DemoMaterials/Starfield_01_Material.mat.meta
-    projectPath: Assets/StarfieldMaterials/DemoMaterials/Starfield_01_Material.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/DemoMaterials/Starfield_Overlay.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/DemoMaterials/Starfield_Overlay.mat
-    projectPath: Assets/StarfieldMaterials/DemoMaterials/Starfield_Overlay.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/DemoMaterials/Starfield_Overlay.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/DemoMaterials/Starfield_Overlay.mat.meta
-    projectPath: Assets/StarfieldMaterials/DemoMaterials/Starfield_Overlay.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/README.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/README.meta
-    projectPath: Assets/StarfieldMaterials/README.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/README/Readme.txt
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/README/Readme.txt
-    projectPath: Assets/StarfieldMaterials/README/Readme.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/README/Readme.txt.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/README/Readme.txt.meta
-    projectPath: Assets/StarfieldMaterials/README/Readme.txt.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Scenes.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Scenes.meta
-    projectPath: Assets/StarfieldMaterials/Scenes.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Scenes/DemoScene.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Scenes/DemoScene.unity
-    projectPath: Assets/StarfieldMaterials/Scenes/DemoScene.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Scenes/DemoScene.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Scenes/DemoScene.unity.meta
-    projectPath: Assets/StarfieldMaterials/Scenes/DemoScene.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Scripts.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Scripts.meta
-    projectPath: Assets/StarfieldMaterials/Scripts.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Scripts/Move.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Scripts/Move.cs
-    projectPath: Assets/StarfieldMaterials/Scripts/Move.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Scripts/Move.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Scripts/Move.cs.meta
-    projectPath: Assets/StarfieldMaterials/Scripts/Move.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures.meta
-    projectPath: Assets/StarfieldMaterials/Textures.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/Plain Starfields.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/Plain
-      Starfields.meta
-    projectPath: Assets/StarfieldMaterials/Textures/Plain Starfields.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_01.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/Plain
-      Starfields/PlainStarfield_01.png
-    projectPath: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_01.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_01.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/Plain
-      Starfields/PlainStarfield_01.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_01.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_02.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/Plain
-      Starfields/PlainStarfield_02.png
-    projectPath: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_02.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_02.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/Plain
-      Starfields/PlainStarfield_02.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_02.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_03.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/Plain
-      Starfields/PlainStarfield_03.png
-    projectPath: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_03.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_03.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/Plain
-      Starfields/PlainStarfield_03.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_03.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_04.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/Plain
-      Starfields/PlainStarfield_04.png
-    projectPath: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_04.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_04.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/Plain
-      Starfields/PlainStarfield_04.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_04.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_01.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_01.png
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_01.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_01.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_01.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_01.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_02.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_02.png
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_02.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_02.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_02.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_02.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_04.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_04.png
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_04.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_04.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_04.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_04.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_05.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_05.png
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_05.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_05.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_05.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_05.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_06.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_06.png
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_06.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_06.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_06.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_06.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_08.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_08.png
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_08.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_08.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_08.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_08.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_09.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_09.png
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_09.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_09.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_09.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_09.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_10.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_10.png
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_10.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_10.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_10.png.meta
-    projectPath: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_10.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow.meta
-    projectPath: Assets/StarSparrow.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials.meta
-    projectPath: Assets/StarSparrow/Materials.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Black.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Black.mat
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Black.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Black.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Black.mat.meta
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Black.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Blue.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Blue.mat
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Blue.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Blue.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Blue.mat.meta
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Blue.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Cyan.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Cyan.mat
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Cyan.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Cyan.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Cyan.mat.meta
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Cyan.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Green.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Green.mat
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Green.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Green.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Green.mat.meta
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Green.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Orange.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Orange.mat
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Orange.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Orange.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Orange.mat.meta
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Orange.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Purple.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Purple.mat
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Purple.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Purple.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Purple.mat.meta
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Purple.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Red.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Red.mat
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Red.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Red.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Red.mat.meta
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Red.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Yellow.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Yellow.mat
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Yellow.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/StarSparrow Yellow.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/StarSparrow
-      Yellow.mat.meta
-    projectPath: Assets/StarSparrow/Materials/StarSparrow Yellow.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified.meta
-    projectPath: Assets/StarSparrow/Materials/Unified.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/StarSparrow Blue.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/StarSparrow
-      Blue.mat
-    projectPath: Assets/StarSparrow/Materials/Unified/StarSparrow Blue.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/StarSparrow Blue.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/StarSparrow
-      Blue.mat.meta
-    projectPath: Assets/StarSparrow/Materials/Unified/StarSparrow Blue.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/StarSparrow Green.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/StarSparrow
-      Green.mat
-    projectPath: Assets/StarSparrow/Materials/Unified/StarSparrow Green.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/StarSparrow Green.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/StarSparrow
-      Green.mat.meta
-    projectPath: Assets/StarSparrow/Materials/Unified/StarSparrow Green.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/StarSparrow Grey.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/StarSparrow
-      Grey.mat
-    projectPath: Assets/StarSparrow/Materials/Unified/StarSparrow Grey.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/StarSparrow Grey.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/StarSparrow
-      Grey.mat.meta
-    projectPath: Assets/StarSparrow/Materials/Unified/StarSparrow Grey.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/StarSparrow Red.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/StarSparrow
-      Red.mat
-    projectPath: Assets/StarSparrow/Materials/Unified/StarSparrow Red.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/StarSparrow Red.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/StarSparrow
-      Red.mat.meta
-    projectPath: Assets/StarSparrow/Materials/Unified/StarSparrow Red.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/StarSparrow White.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/StarSparrow
-      White.mat
-    projectPath: Assets/StarSparrow/Materials/Unified/StarSparrow White.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/StarSparrow White.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/StarSparrow
-      White.mat.meta
-    projectPath: Assets/StarSparrow/Materials/Unified/StarSparrow White.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/UnifiedMaterials.txt
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/UnifiedMaterials.txt
-    projectPath: Assets/StarSparrow/Materials/Unified/UnifiedMaterials.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Materials/Unified/UnifiedMaterials.txt.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Materials/Unified/UnifiedMaterials.txt.meta
-    projectPath: Assets/StarSparrow/Materials/Unified/UnifiedMaterials.txt.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes.meta
-    projectPath: Assets/StarSparrow/Meshes.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/Materials.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/Materials.meta
-    projectPath: Assets/StarSparrow/Meshes/Materials.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/Materials/No Name.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/Materials/No
-      Name.mat
-    projectPath: Assets/StarSparrow/Meshes/Materials/No Name.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/Materials/No Name.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/Materials/No
-      Name.mat.meta
-    projectPath: Assets/StarSparrow/Meshes/Materials/No Name.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/StarSparrowExamples1.FBX
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/StarSparrowExamples1.FBX
-    projectPath: Assets/StarSparrow/Meshes/StarSparrowExamples1.FBX
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/StarSparrowExamples1.FBX.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/StarSparrowExamples1.FBX.meta
-    projectPath: Assets/StarSparrow/Meshes/StarSparrowExamples1.FBX.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/StarSparrowExamples2.FBX
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/StarSparrowExamples2.FBX
-    projectPath: Assets/StarSparrow/Meshes/StarSparrowExamples2.FBX
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/StarSparrowExamples2.FBX.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/StarSparrowExamples2.FBX.meta
-    projectPath: Assets/StarSparrow/Meshes/StarSparrowExamples2.FBX.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/StarSparrowExamplesModular1.FBX
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/StarSparrowExamplesModular1.FBX
-    projectPath: Assets/StarSparrow/Meshes/StarSparrowExamplesModular1.FBX
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/StarSparrowExamplesModular1.FBX.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/StarSparrowExamplesModular1.FBX.meta
-    projectPath: Assets/StarSparrow/Meshes/StarSparrowExamplesModular1.FBX.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/StarSparrowExamplesModular2.FBX
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/StarSparrowExamplesModular2.FBX
-    projectPath: Assets/StarSparrow/Meshes/StarSparrowExamplesModular2.FBX
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/StarSparrowExamplesModular2.FBX.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/StarSparrowExamplesModular2.FBX.meta
-    projectPath: Assets/StarSparrow/Meshes/StarSparrowExamplesModular2.FBX.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/StarSparrowModules.FBX
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/StarSparrowModules.FBX
-    projectPath: Assets/StarSparrow/Meshes/StarSparrowModules.FBX
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Meshes/StarSparrowModules.FBX.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Meshes/StarSparrowModules.FBX.meta
-    projectPath: Assets/StarSparrow/Meshes/StarSparrowModules.FBX.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs.meta
-    projectPath: Assets/StarSparrow/Prefabs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow1.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow1.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow1.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow1.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow1.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow1.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow10.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow10.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow10.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow10.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow10.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow10.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow11.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow11.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow11.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow11.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow11.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow11.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow12.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow12.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow12.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow12.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow12.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow12.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow13.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow13.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow13.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow13.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow13.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow13.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow2.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow2.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow2.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow2.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow2.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow2.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow3.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow3.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow3.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow3.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow3.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow3.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow4.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow4.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow4.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow4.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow4.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow4.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow5.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow5.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow5.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow5.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow5.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow5.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow6.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow6.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow6.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow6.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow6.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow6.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow7.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow7.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow7.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow7.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow7.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow7.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow8.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow8.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow8.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow8.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow8.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow8.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow9.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow9.prefab
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow9.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow9.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow9.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/ExamplesModular/StarSparrow9.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules.meta
-    projectPath: Assets/StarSparrow/Prefabs/Modules.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1.prefab
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2.prefab
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow1.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow1.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow1.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow1.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow1.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow1.prefab.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow10.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow10.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow10.prefab
+  - path: Assets/VolumetricLines.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines.meta
+    projectPath: Assets/VolumetricLines.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow10.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow10.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow10.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow11.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow11.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow11.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleMaterials.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleMaterials.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleMaterials.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow11.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow11.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow11.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow12.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow12.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow12.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/shot_mat.mat.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow12.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow12.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow12.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow13.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow13.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow13.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleMaterials/smoke_mat.mat.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow13.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow13.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow13.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow2.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow2.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow2.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow2.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow2.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow2.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Cannon.prefab.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow3.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow3.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow3.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow3.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow3.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow3.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/shot_prefab.prefab.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow4.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow4.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow4.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow4.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow4.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow4.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow5.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow5.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow5.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow5.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow5.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow5.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow6.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow6.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow6.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow6.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow6.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow6.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow7.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow7.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow7.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow7.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow7.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow7.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow8.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow8.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow8.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow8.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow8.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow8.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTerrain.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTerrain.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTerrain.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow9.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow9.prefab
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow9.prefab
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Prefabs/StarSparrow9.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Prefabs/StarSparrow9.prefab.meta
-    projectPath: Assets/StarSparrow/Prefabs/StarSparrow9.prefab.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/ReadMe.txt
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/ReadMe.txt
-    projectPath: Assets/StarSparrow/ReadMe.txt
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTextures.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTextures.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTextures.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/ReadMe.txt.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/ReadMe.txt.meta
-    projectPath: Assets/StarSparrow/ReadMe.txt.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Scenes.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Scenes.meta
-    projectPath: Assets/StarSparrow/Scenes.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTextures/gui.png.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Scenes/StarSparrowExamples.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Scenes/StarSparrowExamples.unity
-    projectPath: Assets/StarSparrow/Scenes/StarSparrowExamples.unity
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Scenes/StarSparrowExamples.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Scenes/StarSparrowExamples.unity.meta
-    projectPath: Assets/StarSparrow/Scenes/StarSparrowExamples.unity.meta
+  - path: Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Scenes/StarSparrowExamplesModular.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Scenes/StarSparrowExamplesModular.unity
-    projectPath: Assets/StarSparrow/Scenes/StarSparrowExamplesModular.unity
+  - path: Assets/VolumetricLines/ExampleScenes/LaserCannon.unity
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/LaserCannon.unity
+    projectPath: Assets/VolumetricLines/ExampleScenes/LaserCannon.unity
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Scenes/StarSparrowExamplesModular.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Scenes/StarSparrowExamplesModular.unity.meta
-    projectPath: Assets/StarSparrow/Scenes/StarSparrowExamplesModular.unity.meta
+  - path: Assets/VolumetricLines/ExampleScenes/LaserCannon.unity.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/LaserCannon.unity.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/LaserCannon.unity.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Scenes/StarSparrowModules.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Scenes/StarSparrowModules.unity
-    projectPath: Assets/StarSparrow/Scenes/StarSparrowModules.unity
+  - path: Assets/VolumetricLines/ExampleScenes/StaticLines.unity
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/StaticLines.unity
+    projectPath: Assets/VolumetricLines/ExampleScenes/StaticLines.unity
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Scenes/StarSparrowModules.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Scenes/StarSparrowModules.unity.meta
-    projectPath: Assets/StarSparrow/Scenes/StarSparrowModules.unity.meta
+  - path: Assets/VolumetricLines/ExampleScenes/StaticLines.unity.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/StaticLines.unity.meta
+    projectPath: Assets/VolumetricLines/ExampleScenes/StaticLines.unity.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/SubstancePainter.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/SubstancePainter.meta
-    projectPath: Assets/StarSparrow/SubstancePainter.meta
+  - path: Assets/VolumetricLines/Materials.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Materials.meta
+    projectPath: Assets/VolumetricLines/Materials.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/SubstancePainter/StarSparrow.spp
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/SubstancePainter/StarSparrow.spp
-    projectPath: Assets/StarSparrow/SubstancePainter/StarSparrow.spp
+  - path: Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat
+    projectPath: Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/SubstancePainter/StarSparrow.spp.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/SubstancePainter/StarSparrow.spp.meta
-    projectPath: Assets/StarSparrow/SubstancePainter/StarSparrow.spp.meta
+  - path: Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat.meta
+    projectPath: Assets/VolumetricLines/Materials/VolumetricLineMaterial.mat.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures.meta
-    projectPath: Assets/StarSparrow/Textures.meta
+  - path: Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat
+    projectPath: Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Black.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Black.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Black.png
+  - path: Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat.meta
+    projectPath: Assets/VolumetricLines/Materials/VolumetricLineStripMaterial.mat.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Black.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Black.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Black.png.meta
+  - path: Assets/VolumetricLines/Prefabs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs.meta
+    projectPath: Assets/VolumetricLines/Prefabs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Blue.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Blue.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Blue.png
+  - path: Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Blue.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Blue.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Blue.png.meta
+  - path: Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab.meta
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricLinePrefab.prefab.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Cyan.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Cyan.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Cyan.png
+  - path: Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Cyan.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Cyan.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Cyan.png.meta
+  - path: Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab.meta
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricLineStripPrefab.prefab.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Emission.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Emission.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Emission.png
+  - path: Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Emission.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Emission.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Emission.png.meta
+  - path: Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab.meta
+    projectPath: Assets/VolumetricLines/Prefabs/VolumetricMultiLinePrefab.prefab.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Green.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Green.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Green.png
+  - path: Assets/VolumetricLines/Scripts.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts.meta
+    projectPath: Assets/VolumetricLines/Scripts.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Green.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Green.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Green.png.meta
+  - path: Assets/VolumetricLines/Scripts/Utils.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/Utils.meta
+    projectPath: Assets/VolumetricLines/Scripts/Utils.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
+  - path: Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs
+    projectPath: Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png.meta
+  - path: Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Normal.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Normal.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Normal.png
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Normal.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Normal.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Normal.png.meta
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Orange.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Orange.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Orange.png
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Orange.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Orange.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Orange.png.meta
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineSettings.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Purple.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Purple.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Purple.png
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Purple.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Purple.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Purple.png.meta
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Red.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Red.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Red.png
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Red.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Red.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Red.png.meta
+  - path: Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Yellow.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Yellow.png
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Yellow.png
+  - path: Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/StarSparrow_Yellow.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/StarSparrow_Yellow.png.meta
-    projectPath: Assets/StarSparrow/Textures/StarSparrow_Yellow.png.meta
+  - path: Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs.meta
+    projectPath: Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified.meta
-    projectPath: Assets/StarSparrow/Textures/Unified.meta
+  - path: Assets/VolumetricLines/Shaders.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders.meta
+    projectPath: Assets/VolumetricLines/Shaders.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Blue.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Blue.png
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Blue.png
+  - path: Assets/VolumetricLines/Shaders/_SimpleShader.cginc
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/_SimpleShader.cginc
+    projectPath: Assets/VolumetricLines/Shaders/_SimpleShader.cginc
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Blue.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Blue.png.meta
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Blue.png.meta
+  - path: Assets/VolumetricLines/Shaders/_SimpleShader.cginc.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/_SimpleShader.cginc.meta
+    projectPath: Assets/VolumetricLines/Shaders/_SimpleShader.cginc.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Emission.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Emission.png
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Emission.png
+  - path: Assets/VolumetricLines/Shaders/_StripShader.cginc
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/_StripShader.cginc
+    projectPath: Assets/VolumetricLines/Shaders/_StripShader.cginc
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Emission.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Emission.png.meta
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Emission.png.meta
+  - path: Assets/VolumetricLines/Shaders/_StripShader.cginc.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/_StripShader.cginc.meta
+    projectPath: Assets/VolumetricLines/Shaders/_StripShader.cginc.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Green.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Green.png
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Green.png
+  - path: Assets/VolumetricLines/Shaders/Additive.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Additive.shader
+    projectPath: Assets/VolumetricLines/Shaders/Additive.shader
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Green.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Green.png.meta
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Green.png.meta
+  - path: Assets/VolumetricLines/Shaders/Additive.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Additive.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/Additive.shader.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Grey.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Grey.png
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Grey.png
+  - path: Assets/VolumetricLines/Shaders/AlphaBlended.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/AlphaBlended.shader
+    projectPath: Assets/VolumetricLines/Shaders/AlphaBlended.shader
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Grey.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Grey.png.meta
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Grey.png.meta
+  - path: Assets/VolumetricLines/Shaders/AlphaBlended.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/AlphaBlended.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/AlphaBlended.shader.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_MetallicSmoothness.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_MetallicSmoothness.png
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_MetallicSmoothness.png
+  - path: Assets/VolumetricLines/Shaders/Fast-Additive.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Fast-Additive.shader
+    projectPath: Assets/VolumetricLines/Shaders/Fast-Additive.shader
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_MetallicSmoothness.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_MetallicSmoothness.png.meta
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_MetallicSmoothness.png.meta
+  - path: Assets/VolumetricLines/Shaders/Fast-Additive.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Fast-Additive.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/Fast-Additive.shader.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Normal.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Normal.png
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Normal.png
+  - path: Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader
+    projectPath: Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Normal.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Normal.png.meta
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Normal.png.meta
+  - path: Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/Fast-AlphaBlended.shader.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Red.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Red.png
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Red.png
+  - path: Assets/VolumetricLines/Shaders/Strip-Additive.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Strip-Additive.shader
+    projectPath: Assets/VolumetricLines/Shaders/Strip-Additive.shader
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_Red.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_Red.png.meta
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_Red.png.meta
+  - path: Assets/VolumetricLines/Shaders/Strip-Additive.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Strip-Additive.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/Strip-Additive.shader.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_White.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_White.png
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_White.png
+  - path: Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader
+    projectPath: Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/StarSparrow/Textures/Unified/StarSparrow_White.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/StarSparrow/Textures/Unified/StarSparrow_White.png.meta
-    projectPath: Assets/StarSparrow/Textures/Unified/StarSparrow_White.png.meta
+  - path: Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader.meta
+    projectPath: Assets/VolumetricLines/Shaders/Strip-AlphaBlended.shader.meta
     originalPath: 
     status: 1
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/assetDatabase3
     projectPath: Library/assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/CurrentLayout.dwlt
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/CurrentLayout.dwlt
-    projectPath: Library/CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/expandedItems
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/expandedItems
-    projectPath: Library/expandedItems
     originalPath: 
     status: 3
     staged: 0
@@ -1421,333 +514,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/13/1322fd896bbb15bb6e335591b766ae62
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/13/1322fd896bbb15bb6e335591b766ae62
-    projectPath: Library/metadata/13/1322fd896bbb15bb6e335591b766ae62
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/13/1322fd896bbb15bb6e335591b766ae62.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/13/1322fd896bbb15bb6e335591b766ae62.info
-    projectPath: Library/metadata/13/1322fd896bbb15bb6e335591b766ae62.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/3c/3cebe1a96232b44388b30b2f72dde434
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/3c/3cebe1a96232b44388b30b2f72dde434
-    projectPath: Library/metadata/3c/3cebe1a96232b44388b30b2f72dde434
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/3c/3cebe1a96232b44388b30b2f72dde434.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/3c/3cebe1a96232b44388b30b2f72dde434.info
-    projectPath: Library/metadata/3c/3cebe1a96232b44388b30b2f72dde434.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/45/453f100e6bdae4dfd9e655927819dc85
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/45/453f100e6bdae4dfd9e655927819dc85
-    projectPath: Library/metadata/45/453f100e6bdae4dfd9e655927819dc85
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/45/453f100e6bdae4dfd9e655927819dc85.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/45/453f100e6bdae4dfd9e655927819dc85.info
-    projectPath: Library/metadata/45/453f100e6bdae4dfd9e655927819dc85.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/6e/6e7c8cfeedae74eb3a562055e069e441
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/6e/6e7c8cfeedae74eb3a562055e069e441
-    projectPath: Library/metadata/6e/6e7c8cfeedae74eb3a562055e069e441
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/6e/6e7c8cfeedae74eb3a562055e069e441.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/6e/6e7c8cfeedae74eb3a562055e069e441.info
-    projectPath: Library/metadata/6e/6e7c8cfeedae74eb3a562055e069e441.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/79/7927683d1fc5848b5abfb54ebb1028ec
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/79/7927683d1fc5848b5abfb54ebb1028ec
-    projectPath: Library/metadata/79/7927683d1fc5848b5abfb54ebb1028ec
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/79/7927683d1fc5848b5abfb54ebb1028ec.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/79/7927683d1fc5848b5abfb54ebb1028ec.info
-    projectPath: Library/metadata/79/7927683d1fc5848b5abfb54ebb1028ec.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/86/86c008322e7c647149878156c5b81940
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/86/86c008322e7c647149878156c5b81940
-    projectPath: Library/metadata/86/86c008322e7c647149878156c5b81940
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/86/86c008322e7c647149878156c5b81940.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/86/86c008322e7c647149878156c5b81940.info
-    projectPath: Library/metadata/86/86c008322e7c647149878156c5b81940.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/a6/a6842a74831964edc8fefa1c0aed89dc
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/a6/a6842a74831964edc8fefa1c0aed89dc
-    projectPath: Library/metadata/a6/a6842a74831964edc8fefa1c0aed89dc
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/a6/a6842a74831964edc8fefa1c0aed89dc.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/a6/a6842a74831964edc8fefa1c0aed89dc.info
-    projectPath: Library/metadata/a6/a6842a74831964edc8fefa1c0aed89dc.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/b5/b52e557db2c2b4eebb10444f1d582029
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/b5/b52e557db2c2b4eebb10444f1d582029
-    projectPath: Library/metadata/b5/b52e557db2c2b4eebb10444f1d582029
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/b5/b52e557db2c2b4eebb10444f1d582029.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/b5/b52e557db2c2b4eebb10444f1d582029.info
-    projectPath: Library/metadata/b5/b52e557db2c2b4eebb10444f1d582029.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/c5/c5ba7626a737840ff88a3bd84b100482
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/c5/c5ba7626a737840ff88a3bd84b100482
-    projectPath: Library/metadata/c5/c5ba7626a737840ff88a3bd84b100482
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/c5/c5ba7626a737840ff88a3bd84b100482.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/c5/c5ba7626a737840ff88a3bd84b100482.info
-    projectPath: Library/metadata/c5/c5ba7626a737840ff88a3bd84b100482.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/c9/c99bfe4fc4e5c4dc3917c14075acd117
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/c9/c99bfe4fc4e5c4dc3917c14075acd117
-    projectPath: Library/metadata/c9/c99bfe4fc4e5c4dc3917c14075acd117
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/c9/c99bfe4fc4e5c4dc3917c14075acd117.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/c9/c99bfe4fc4e5c4dc3917c14075acd117.info
-    projectPath: Library/metadata/c9/c99bfe4fc4e5c4dc3917c14075acd117.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/cc/cc1b50b5501f748da8bec762294d9136
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/cc/cc1b50b5501f748da8bec762294d9136
-    projectPath: Library/metadata/cc/cc1b50b5501f748da8bec762294d9136
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/cc/cc1b50b5501f748da8bec762294d9136.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/cc/cc1b50b5501f748da8bec762294d9136.info
-    projectPath: Library/metadata/cc/cc1b50b5501f748da8bec762294d9136.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/ce/ce4395ccdb12cf62fca756358be1a892
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/ce/ce4395ccdb12cf62fca756358be1a892
-    projectPath: Library/metadata/ce/ce4395ccdb12cf62fca756358be1a892
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/ce/ce4395ccdb12cf62fca756358be1a892.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/ce/ce4395ccdb12cf62fca756358be1a892.info
-    projectPath: Library/metadata/ce/ce4395ccdb12cf62fca756358be1a892.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/d1/d1c1a2d988f5148fd9ab17b2460d271e
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/d1/d1c1a2d988f5148fd9ab17b2460d271e
-    projectPath: Library/metadata/d1/d1c1a2d988f5148fd9ab17b2460d271e
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/d1/d1c1a2d988f5148fd9ab17b2460d271e.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/d1/d1c1a2d988f5148fd9ab17b2460d271e.info
-    projectPath: Library/metadata/d1/d1c1a2d988f5148fd9ab17b2460d271e.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/ee/eeed6954b3c264ca0b28a92aa6289bf0
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/ee/eeed6954b3c264ca0b28a92aa6289bf0
-    projectPath: Library/metadata/ee/eeed6954b3c264ca0b28a92aa6289bf0
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/ee/eeed6954b3c264ca0b28a92aa6289bf0.info
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/metadata/ee/eeed6954b3c264ca0b28a92aa6289bf0.info
-    projectPath: Library/metadata/ee/eeed6954b3c264ca0b28a92aa6289bf0.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/UnityAds
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/UnityAds
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/UnityAds
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/UnityAds.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/UnityAds.meta
-    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/UnityAds.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/ProjectSettings.asset
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ProjectSettings.asset
-    projectPath: Library/ProjectSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ShaderCache.db
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ShaderCache.db
-    projectPath: Library/ShaderCache.db
+  - path: Library/ScriptMapper
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptMapper
+    projectPath: Library/ScriptMapper
     originalPath: 
     status: 3
     staged: 0
@@ -1768,10 +537,4 @@ MonoBehaviour:
     projectPath: Library/StateCache/SceneView/49a8a7-mainStage.json
     originalPath: 
     status: 3
-    staged: 0
-  - path: Temp/ProcessJobs/1f068db059d5cf0261a3b566803bc6c6.bakert
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Temp/ProcessJobs/1f068db059d5cf0261a3b566803bc6c6.bakert
-    projectPath: Temp/ProcessJobs/1f068db059d5cf0261a3b566803bc6c6.bakert
-    originalPath: 
-    status: 5
     staged: 0
