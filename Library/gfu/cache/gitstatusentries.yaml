@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-21T23:20:00.464-04:00
-  initializedAtString: 2019-04-18T11:30:53.883-04:00
+  lastUpdatedAtString: 2019-04-24T00:02:38.801-04:00
+  initializedAtString: 2019-04-23T23:10:04.142-04:00
   entries:
   - path: Assets/Scenes/Galaga.unity
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Galaga.unity
@@ -32,17 +32,17 @@ MonoBehaviour:
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/uiScript.cs
     projectPath: Assets/Scenes/uiScript.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scenes/uiScript.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/uiScript.cs.meta
-    projectPath: Assets/Scenes/uiScript.cs.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/assetDatabase3
     projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/EditorInstance.json
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
     originalPath: 
     status: 3
     staged: 0
@@ -76,6 +76,18 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/StateCache/Hierarchy/d7e798-mainStage.json
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/StateCache/Hierarchy/d7e798-mainStage.json
     projectPath: Library/StateCache/Hierarchy/d7e798-mainStage.json
@@ -85,6 +97,12 @@ MonoBehaviour:
   - path: Library/StateCache/SceneView/49a8a7-mainStage.json
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/StateCache/SceneView/49a8a7-mainStage.json
     projectPath: Library/StateCache/SceneView/49a8a7-mainStage.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings/TagManager.asset
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
     originalPath: 
     status: 3
     staged: 0

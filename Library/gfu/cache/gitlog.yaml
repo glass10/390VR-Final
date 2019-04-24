@@ -13,9 +13,99 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-04-18T19:42:39.363-04:00
+  lastUpdatedAtString: 2019-04-22T19:35:27.666-04:00
   initializedAtString: 2019-04-18T17:52:01.212-04:00
   log:
+  - commitID: 3f3b5b954ba2608034ad662e91799821da39cae7
+    mergeA: 
+    mergeB: 
+    authorName: Cameron Glass
+    authorEmail: glass10@purdue.edu
+    commitEmail: glass10@purdue.edu
+    commitName: Cameron Glass
+    summary: Galaga Start/Pause/Stop, writing scores to board
+    description: 
+    timeString: 2019-04-21T23:45:08.000-04:00
+    commitTimeString: 2019-04-21T23:45:08.000-04:00
+    changes:
+    - path: Assets/Scenes/Galaga.unity
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Galaga.unity
+      projectPath: Assets/Scenes/Galaga.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/GameSelection.unity
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/GameSelection.unity
+      projectPath: Assets/Scenes/GameSelection.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/galagaMoveShip.cs
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/galagaMoveShip.cs
+      projectPath: Assets/Scenes/galagaMoveShip.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/uiScript.cs
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/uiScript.cs
+      projectPath: Assets/Scenes/uiScript.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/uiScript.cs.meta
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/uiScript.cs.meta
+      projectPath: Assets/Scenes/uiScript.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/StateCache/Hierarchy/d7e798-mainStage.json
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/StateCache/Hierarchy/d7e798-mainStage.json
+      projectPath: Library/StateCache/Hierarchy/d7e798-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/StateCache/SceneView/49a8a7-mainStage.json
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/StateCache/SceneView/49a8a7-mainStage.json
+      projectPath: Library/StateCache/SceneView/49a8a7-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 6686a95e63b5d70a074266c194be10ef1c262ad6
     mergeA: 
     mergeB: 

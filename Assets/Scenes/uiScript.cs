@@ -8,6 +8,7 @@ public class uiScript : MonoBehaviour
 {
     public static SortedList leaderboard = new SortedList();
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,18 +27,14 @@ public class uiScript : MonoBehaviour
         Debug.Log("Game Started");
         //Do countdown
 
-        //Spawn first wave of ships
-        if (newGame)
-        {
-
-        }
-        else
-        {
-            //Start game with old configuration
-        }
-
         // Set game as active
         galagaMoveShip.gameActive = true;
+
+        // Spawn Ships
+        //galagaMoveShip.spawnWave();
+
+        // Run game
+        //galagaMoveShip.runGame();
     }
 
     // Pause game
@@ -58,6 +55,9 @@ public class uiScript : MonoBehaviour
             // Restart Game or stop
             if(galagaMoveShip.lives > 0)
             {
+                // TODO: Pause for a few seconds
+
+                // Restart Game
                 startGame(false);
             }
             else
@@ -87,7 +87,7 @@ public class uiScript : MonoBehaviour
         galagaMoveShip.lives = 3;
         galagaMoveShip.gameSpeed = 1.0;
 
-        // Change scenes
+        //TODO: Change scenes
     }
 
     // Load leaderboard
@@ -102,8 +102,6 @@ public class uiScript : MonoBehaviour
             fs.Close();
 
             leaderboard = newLeaderboard;
-
-
         }
     }
 
@@ -116,4 +114,6 @@ public class uiScript : MonoBehaviour
         bf.Serialize(fs1, leaderboard);
         fs1.Close();
     }
+
+
 }
