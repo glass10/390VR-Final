@@ -58,23 +58,23 @@ public class updateLeaderboard : MonoBehaviour
             pacmanSize = 5;
         }
         string pacmanLeaderboard = "";
-        for (int i = 1; i <= pacman.Count; i++)
+        for (int i = pacmanSize; i >= 1; i--)
         {
-            pacmanLeaderboard += i + " - " + pacman.GetByIndex(i-1) + " - " + pacman.GetKey(i-1).ToString().Substring(0, 5) + "\n"; 
+            pacmanLeaderboard += (pacmanSize-i) + " - " + pacman.GetByIndex(i-1) + " - " + pacman.GetKey(i-1).ToString() + "\n"; 
         }
         textObject1.GetComponent<TextMesh>().text = pacmanLeaderboard;
 
         // Galaga Leaderboard
         int galagaSize = galaga.Count;
-        Debug.Log("pacman Size: " + galagaSize);
+        Debug.Log("galaga Size: " + galagaSize);
         if (galagaSize > 5)
         {
             galagaSize = 5;
         }
         string galagaLeaderboard = "";
-        for (int i = 1; i <= galaga.Count; i++)
+        for (int i = galagaSize; i >= 1; i--)
         {
-            galagaLeaderboard += i + " - " + galaga.GetByIndex(i-1) + " - " + galaga.GetKey(i-1).ToString().Substring(0, 5) + "\n";
+            galagaLeaderboard += (galagaSize - i + 1) + " - " + galaga.GetByIndex(i-1) + " - " + galaga.GetKey(i-1).ToString() + "\n";
         }
         textObject2.GetComponent<TextMesh>().text = galagaLeaderboard;
     }

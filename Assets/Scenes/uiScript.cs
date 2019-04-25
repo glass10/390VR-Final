@@ -3,22 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class uiScript : MonoBehaviour
 {
     public static SortedList leaderboard = new SortedList();
-
+    public bool waiting = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    IEnumerator Wait(float duration)
+    {
+        //This is a coroutine
+        waiting = true;
+        yield return new WaitForSeconds(duration);   //Wait
+        waiting = false;
     }
 
     // Start game
@@ -55,8 +64,6 @@ public class uiScript : MonoBehaviour
             // Restart Game or stop
             if(galagaMoveShip.lives > 0)
             {
-                // TODO: Pause for a few seconds
-
                 // Restart Game
                 startGame(false);
             }
@@ -74,39 +81,59 @@ public class uiScript : MonoBehaviour
     public static void stopGame()
     {
         Debug.Log("Game Stopped");
+        // Load Galaga Leaderboard
+        if (File.Exists(Application.persistentDataPath + "/galaga.dat"))
+        {
+            BinaryFormatter bf1 = new BinaryFormatter();
+            FileStream fs = File.OpenRead(Application.persistentDataPath + "/galaga.dat");
+            SortedList newLeaderboard = (SortedList)bf1.Deserialize(fs);
+            fs.Close();
+
+            leaderboard = newLeaderboard;
+        }
+
         // Set game as inactive
         galagaMoveShip.gameActive = false;
 
         // Write high score to leaderboard and save
         int finalScore = galagaMoveShip.score;
-        leaderboard.Add(finalScore, System.DateTime.Now.ToString("MM/dd/yyyy/"));
-        save();
+        Debug.Log("Score being Recorded: " + finalScore);
+        leaderboard.Add(finalScore, System.DateTime.Now.ToString("MM/dd/yyyy"));
+        //save();
+
+        // Save Galaga Leaderboard
+        BinaryFormatter bf = new BinaryFormatter();
+        FileStream fs1 = File.Open(Application.persistentDataPath + "/galaga.dat", FileMode.OpenOrCreate);
+        bf.Serialize(fs1, leaderboard);
+        fs1.Close();
 
         // Reset globals
-        galagaMoveShip.score = 0;
-        galagaMoveShip.lives = 3;
-        galagaMoveShip.gameSpeed = 1.0;
+        //galagaMoveShip.score = 0;
+        //galagaMoveShip.lives = 3;
+        //galagaMoveShip.gameSpeed = 1.0;
 
-        //TODO: Change scenes
+        // Change scenes
+        SceneManager.LoadScene("GameSelection", LoadSceneMode.Single);
     }
 
+
     // Load leaderboard
-    static void load()
+    void load()
     {
         // Load Galaga Leaderboard
-        if (File.Exists(Application.persistentDataPath + "/galaga.dat"))
-        {
-            BinaryFormatter bf = new BinaryFormatter();
-            FileStream fs = File.OpenRead(Application.persistentDataPath + "/galaga.dat");
-            SortedList newLeaderboard = (SortedList)bf.Deserialize(fs);
-            fs.Close();
+        //if (File.Exists(Application.persistentDataPath + "/galaga.dat"))
+        //{
+        //    BinaryFormatter bf = new BinaryFormatter();
+        //    FileStream fs = File.OpenRead(Application.persistentDataPath + "/galaga.dat");
+        //    SortedList newLeaderboard = (SortedList)bf.Deserialize(fs);
+        //    fs.Close();
 
-            leaderboard = newLeaderboard;
-        }
+        //    leaderboard = newLeaderboard;
+        //}
     }
 
     // Save leaderboard
-    static void save()
+    void save()
     {
         // Save Galaga Leaderboard
         BinaryFormatter bf = new BinaryFormatter();
