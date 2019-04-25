@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Galaga.unity
+    guid: 3df3175eda6ba4429af53b142b2208b5
+  - enabled: 1
+    path: Assets/Scenes/GameSelection.unity
+    guid: 0ef30f03b5a734c988bce4710d93f4b3
   m_configObjects: {}
