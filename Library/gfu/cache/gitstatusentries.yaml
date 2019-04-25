@@ -13,83 +13,339 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-<<<<<<< HEAD
-  lastUpdatedAtString: 2019-04-24T21:40:50.933-04:00
-  initializedAtString: 2019-04-24T21:27:01.283-04:00
+  lastUpdatedAtString: 2019-04-25T08:55:19.690-04:00
+  initializedAtString: 2019-04-24T22:48:06.868-04:00
   entries:
-  - path: Assets/Materials/coin.mat
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Materials/coin.mat
-    projectPath: Assets/Materials/coin.mat
-    originalPath: 
-    status: 1
-=======
-  lastUpdatedAtString: 2019-04-24T22:17:40.745-04:00
-  initializedAtString: 2019-04-24T20:55:27.462-04:00
-  entries:
-  - path: Assets/Scenes/EXPLOSION SOUND EFFECT 1.mp3
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/EXPLOSION
-      SOUND EFFECT 1.mp3
-    projectPath: Assets/Scenes/EXPLOSION SOUND EFFECT 1.mp3
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scenes/EXPLOSION SOUND EFFECT 1.mp3.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/EXPLOSION
-      SOUND EFFECT 1.mp3.meta
-    projectPath: Assets/Scenes/EXPLOSION SOUND EFFECT 1.mp3.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scenes/EXPLOSION SOUND EFFECT.wav
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/EXPLOSION
-      SOUND EFFECT.wav
-    projectPath: Assets/Scenes/EXPLOSION SOUND EFFECT.wav
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scenes/EXPLOSION SOUND EFFECT.wav.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/EXPLOSION
-      SOUND EFFECT.wav.meta
-    projectPath: Assets/Scenes/EXPLOSION SOUND EFFECT.wav.meta
-    originalPath: 
-    status: 1
->>>>>>> 8591fbe0ebc6225488d9fb1971eb8dc8318d9eba
-    staged: 0
-  - path: Assets/Materials/coin.mat.meta
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Materials/coin.mat.meta
-    projectPath: Assets/Materials/coin.mat.meta
-    originalPath: 
-<<<<<<< HEAD
-    status: 1
-=======
-    status: 3
-    staged: 0
-  - path: Assets/Scenes/Laser Gun Sound Effect.mp3
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Laser Gun
-      Sound Effect.mp3
-    projectPath: Assets/Scenes/Laser Gun Sound Effect.mp3
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scenes/Laser Gun Sound Effect.mp3.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Laser Gun
-      Sound Effect.mp3.meta
-    projectPath: Assets/Scenes/Laser Gun Sound Effect.mp3.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scenes/shipCollision.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/shipCollision.cs
-    projectPath: Assets/Scenes/shipCollision.cs
+  - path: Assets/Ghost.cs
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Ghost.cs
+    projectPath: Assets/Ghost.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scenes/uiScript.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/uiScript.cs
-    projectPath: Assets/Scenes/uiScript.cs
+  - path: Assets/Scenes/Pacman.unity
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman.unity
+    projectPath: Assets/Scenes/Pacman.unity
     originalPath: 
     status: 3
->>>>>>> 8591fbe0ebc6225488d9fb1971eb8dc8318d9eba
+    staged: 0
+  - path: Assets/Scenes/Pacman/Ding Sound Effect.mp3
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/Ding Sound Effect.mp3
+    projectPath: Assets/Scenes/Pacman/Ding Sound Effect.mp3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/Ding Sound Effect.mp3.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/Ding Sound Effect.mp3.meta
+    projectPath: Assets/Scenes/Pacman/Ding Sound Effect.mp3.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/NavMesh-Navmesh 1.asset
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/NavMesh-Navmesh
+      1.asset
+    projectPath: Assets/Scenes/Pacman/NavMesh-Navmesh 1.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacmanCollision.cs
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacmanCollision.cs
+    projectPath: Assets/Scenes/Pacman/pacmanCollision.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacmanCollision.cs.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacmanCollision.cs.meta
+    projectPath: Assets/Scenes/Pacman/pacmanCollision.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacman-eats.mp3
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacman-eats.mp3
+    projectPath: Assets/Scenes/Pacman/pacman-eats.mp3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacman-eats.mp3.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacman-eats.mp3.meta
+    projectPath: Assets/Scenes/Pacman/pacman-eats.mp3.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacmanGameController.cs
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacmanGameController.cs
+    projectPath: Assets/Scenes/Pacman/pacmanGameController.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacmanGameController.cs.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacmanGameController.cs.meta
+    projectPath: Assets/Scenes/Pacman/pacmanGameController.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacman-lose.mp3
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacman-lose.mp3
+    projectPath: Assets/Scenes/Pacman/pacman-lose.mp3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacman-lose.mp3.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacman-lose.mp3.meta
+    projectPath: Assets/Scenes/Pacman/pacman-lose.mp3.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacman-reg-sound.mp3
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacman-reg-sound.mp3
+    projectPath: Assets/Scenes/Pacman/pacman-reg-sound.mp3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacman-reg-sound.mp3.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacman-reg-sound.mp3.meta
+    projectPath: Assets/Scenes/Pacman/pacman-reg-sound.mp3.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacman-start.mp3
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacman-start.mp3
+    projectPath: Assets/Scenes/Pacman/pacman-start.mp3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacman-start.mp3.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacman-start.mp3.meta
+    projectPath: Assets/Scenes/Pacman/pacman-start.mp3.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacmanUiScript.cs
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacmanUiScript.cs
+    projectPath: Assets/Scenes/Pacman/pacmanUiScript.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Pacman/pacmanUiScript.cs.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacmanUiScript.cs.meta
+    projectPath: Assets/Scenes/Pacman/pacmanUiScript.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets.meta
+    projectPath: Assets/SkyboxEarthPlanets.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/flares.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/flares.meta
+    projectPath: Assets/SkyboxEarthPlanets/flares.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/flares/Sun1.flare
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/flares/Sun1.flare
+    projectPath: Assets/SkyboxEarthPlanets/flares/Sun1.flare
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/flares/Sun1.flare.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/flares/Sun1.flare.meta
+    projectPath: Assets/SkyboxEarthPlanets/flares/Sun1.flare.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/flares/textures.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/flares/textures.meta
+    projectPath: Assets/SkyboxEarthPlanets/flares/textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/flares/textures/sun1.psd
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/flares/textures/sun1.psd
+    projectPath: Assets/SkyboxEarthPlanets/flares/textures/sun1.psd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/flares/textures/sun1.psd.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/flares/textures/sun1.psd.meta
+    projectPath: Assets/SkyboxEarthPlanets/flares/textures/sun1.psd.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/readme.txt
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/readme.txt
+    projectPath: Assets/SkyboxEarthPlanets/readme.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/readme.txt.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/readme.txt.meta
+    projectPath: Assets/SkyboxEarthPlanets/readme.txt.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/scenes.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/scenes.meta
+    projectPath: Assets/SkyboxEarthPlanets/scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/scenes/skyboxEarthProDemo.unity
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/scenes/skyboxEarthProDemo.unity
+    projectPath: Assets/SkyboxEarthPlanets/scenes/skyboxEarthProDemo.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/scenes/skyboxEarthProDemo.unity.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/scenes/skyboxEarthProDemo.unity.meta
+    projectPath: Assets/SkyboxEarthPlanets/scenes/skyboxEarthProDemo.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/scenes/skyboxspaceFreeexample.unity
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/scenes/skyboxspaceFreeexample.unity
+    projectPath: Assets/SkyboxEarthPlanets/scenes/skyboxspaceFreeexample.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/scenes/skyboxspaceFreeexample.unity.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/scenes/skyboxspaceFreeexample.unity.meta
+    projectPath: Assets/SkyboxEarthPlanets/scenes/skyboxspaceFreeexample.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/script.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/script.meta
+    projectPath: Assets/SkyboxEarthPlanets/script.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/script/skyboxspace_demo_v1.cs
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/script/skyboxspace_demo_v1.cs
+    projectPath: Assets/SkyboxEarthPlanets/script/skyboxspace_demo_v1.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/script/skyboxspace_demo_v1.cs.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/script/skyboxspace_demo_v1.cs.meta
+    projectPath: Assets/SkyboxEarthPlanets/script/skyboxspace_demo_v1.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/script/skyboxspace_mouselook_v1.cs
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/script/skyboxspace_mouselook_v1.cs
+    projectPath: Assets/SkyboxEarthPlanets/script/skyboxspace_mouselook_v1.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/script/skyboxspace_mouselook_v1.cs.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/script/skyboxspace_mouselook_v1.cs.meta
+    projectPath: Assets/SkyboxEarthPlanets/script/skyboxspace_mouselook_v1.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/skyboxes.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/skyboxes.meta
+    projectPath: Assets/SkyboxEarthPlanets/skyboxes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/skyboxes/skyboxv1_starsonly.mat
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/skyboxes/skyboxv1_starsonly.mat
+    projectPath: Assets/SkyboxEarthPlanets/skyboxes/skyboxv1_starsonly.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/skyboxes/skyboxv1_starsonly.mat.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/skyboxes/skyboxv1_starsonly.mat.meta
+    projectPath: Assets/SkyboxEarthPlanets/skyboxes/skyboxv1_starsonly.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures.meta
+    projectPath: Assets/SkyboxEarthPlanets/textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only.meta
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars001.png
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars001.png
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars001.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars001.png.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars001.png.meta
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars001.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars002.png
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars002.png
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars002.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars002.png.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars002.png.meta
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars002.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars003.png
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars003.png
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars003.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars003.png.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars003.png.meta
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars003.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars004.png
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars004.png
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars004.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars004.png.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars004.png.meta
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars004.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars005.png
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars005.png
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars005.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars005.png.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars005.png.meta
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars005.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars006.png
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars006.png
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars006.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars006.png.meta
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars006.png.meta
+    projectPath: Assets/SkyboxEarthPlanets/textures/skyboxv1_stars_only/stars006.png.meta
+    originalPath: 
+    status: 1
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/assetDatabase3
@@ -97,15 +353,12 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-<<<<<<< HEAD
-=======
-  - path: Library/gfu/cache/branches.yaml
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/branches.yaml
-    projectPath: Library/gfu/cache/branches.yaml
+  - path: Library/EditorInstance.json
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
     originalPath: 
     status: 3
     staged: 0
->>>>>>> 8591fbe0ebc6225488d9fb1971eb8dc8318d9eba
   - path: Library/gfu/cache/gitstatusentries.yaml
     fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
@@ -118,24 +371,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-<<<<<<< HEAD
   - path: Library/gfu/cache/repoinfo.yaml
     fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/gfu/cache/repoinfo.yaml
     projectPath: Library/gfu/cache/repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
-=======
->>>>>>> 8591fbe0ebc6225488d9fb1971eb8dc8318d9eba
   - path: Library/InspectorExpandedItems.asset
     fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/InspectorExpandedItems.asset
     projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+  - path: Library/ScriptMapper
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/ScriptMapper
+    projectPath: Library/ScriptMapper
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ShaderCache.db
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/ShaderCache.db
+    projectPath: Library/ShaderCache.db
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
     originalPath: 
     status: 3
     staged: 0
@@ -145,12 +407,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-<<<<<<< HEAD
   - path: Library/StateCache/SceneView/49a8a7-mainStage.json
     fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/StateCache/SceneView/49a8a7-mainStage.json
     projectPath: Library/StateCache/SceneView/49a8a7-mainStage.json
     originalPath: 
     status: 3
     staged: 0
-=======
->>>>>>> 8591fbe0ebc6225488d9fb1971eb8dc8318d9eba
+  - path: ProjectSettings/DynamicsManager.asset
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/ProjectSettings/DynamicsManager.asset
+    projectPath: ProjectSettings/DynamicsManager.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings/TagManager.asset
+    fullPath: /Users/audrey/Hacks/VR/390VR-Final/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
+    originalPath: 
+    status: 3
+    staged: 0

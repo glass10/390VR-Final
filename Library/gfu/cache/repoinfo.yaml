@@ -13,13 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-<<<<<<< HEAD
-  lastUpdatedAtString: 2019-04-24T21:28:39.419-04:00
-  initializedAtString: 2019-04-24T21:28:39.419-04:00
-=======
-  lastUpdatedAtString: 2019-04-24T20:56:45.141-04:00
-  initializedAtString: 2019-04-24T20:56:45.141-04:00
->>>>>>> 8591fbe0ebc6225488d9fb1971eb8dc8318d9eba
+  lastUpdatedAtString: 2019-04-24T23:02:13.275-04:00
+  initializedAtString: 2019-04-24T23:02:13.275-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/glass10/390VR-Final.git

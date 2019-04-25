@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 4301027}
   - component: {fileID: 4301026}
   - component: {fileID: 4301025}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (41)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -324,6 +324,7 @@ GameObject:
   - component: {fileID: 6899493}
   - component: {fileID: 6899492}
   - component: {fileID: 6899491}
+  - component: {fileID: 6899494}
   m_Layer: 10
   m_Name: top wall
   m_TagString: Untagged
@@ -403,6 +404,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6899489}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &6899494
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6899489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: -0.0000038146973, y: 0, z: 0.00000007616161}
 --- !u!1 &31032636
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,6 +429,7 @@ GameObject:
   - component: {fileID: 31032639}
   - component: {fileID: 31032638}
   - component: {fileID: 31032637}
+  - component: {fileID: 31032641}
   m_Layer: 10
   m_Name: Cube (26)
   m_TagString: Untagged
@@ -494,6 +509,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &31032641
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31032636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000006}
+  m_Center: {x: -0.0000038146973, y: 0, z: -0.0000023841858}
 --- !u!1 &32679022
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,7 +535,8 @@ GameObject:
   - component: {fileID: 32679026}
   - component: {fileID: 32679025}
   - component: {fileID: 32679024}
-  m_Layer: 0
+  - component: {fileID: 32679028}
+  m_Layer: 11
   m_Name: smallCoin (58)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -602,6 +631,147 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 32679022}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &32679028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32679022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
+--- !u!1 &35466815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 35466817}
+  - component: {fileID: 35466816}
+  m_Layer: 0
+  m_Name: gameEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &35466816
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35466815}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2e3c2a25721414ecf8db56fd5c713d20, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &35466817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35466815}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04, y: 0, z: -1.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &59485780
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,6 +784,7 @@ GameObject:
   - component: {fileID: 59485783}
   - component: {fileID: 59485782}
   - component: {fileID: 59485781}
+  - component: {fileID: 59485785}
   m_Layer: 10
   m_Name: Cube (18)
   m_TagString: Untagged
@@ -693,6 +864,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &59485785
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59485780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000004}
+  m_Center: {x: -0.0000076293945, y: 0, z: -0.00000029802322}
 --- !u!1 &74400801
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,7 +890,7 @@ GameObject:
   - component: {fileID: 74400805}
   - component: {fileID: 74400804}
   - component: {fileID: 74400803}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (29)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -814,7 +998,7 @@ GameObject:
   - component: {fileID: 75814311}
   - component: {fileID: 75814310}
   - component: {fileID: 75814309}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (35)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -909,6 +1093,154 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75814307}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &77376457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 77376465}
+  - component: {fileID: 77376464}
+  - component: {fileID: 77376463}
+  - component: {fileID: 77376462}
+  - component: {fileID: 77376460}
+  - component: {fileID: 77376459}
+  - component: {fileID: 77376458}
+  m_Layer: 0
+  m_Name: pacman
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!195 &77376458
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77376457}
+  m_Enabled: 1
+  m_AgentTypeID: -1372625422
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 0
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &77376459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77376457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8132e3a3fb38446799ee6f8e1c0641df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1535402850}
+  gameSound: {fileID: 89253203}
+  gameStart: {fileID: 1578411609}
+  gameEnd: {fileID: 35466816}
+  agent: {fileID: 77376458}
+  waiting: 0
+--- !u!114 &77376460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77376457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
+--- !u!135 &77376462
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77376457}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &77376463
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77376457}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8ba75d41434044322998c241a47c3f3b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &77376464
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77376457}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &77376465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77376457}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.5}
+  m_LocalPosition: {x: -0.13, y: 0.56, z: -2.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &87836707
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,7 +1254,8 @@ GameObject:
   - component: {fileID: 87836711}
   - component: {fileID: 87836710}
   - component: {fileID: 87836709}
-  m_Layer: 0
+  - component: {fileID: 87836713}
+  m_Layer: 11
   m_Name: smallCoin (24)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -1017,6 +1350,147 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87836707}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &87836713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87836707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
+--- !u!1 &89253202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 89253204}
+  - component: {fileID: 89253203}
+  m_Layer: 0
+  m_Name: gameSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &89253203
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89253202}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: dae24a8e6af0a4822a93e05a77d9a1f2, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &89253204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89253202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04, y: 0, z: -1.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &96981480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1503,7 @@ GameObject:
   - component: {fileID: 96981483}
   - component: {fileID: 96981482}
   - component: {fileID: 96981481}
+  - component: {fileID: 96981485}
   m_Layer: 10
   m_Name: top portal wall
   m_TagString: Untagged
@@ -1108,6 +1583,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &96981485
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96981480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000013113022, y: 0, z: -0.00000071525574}
 --- !u!1 &101130022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,7 +1609,8 @@ GameObject:
   - component: {fileID: 101130026}
   - component: {fileID: 101130025}
   - component: {fileID: 101130024}
-  m_Layer: 0
+  - component: {fileID: 101130028}
+  m_Layer: 11
   m_Name: smallCoin (44)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -1216,6 +1705,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101130022}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &101130028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101130022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &105600960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,7 +1732,8 @@ GameObject:
   - component: {fileID: 105600964}
   - component: {fileID: 105600963}
   - component: {fileID: 105600962}
-  m_Layer: 0
+  - component: {fileID: 105600966}
+  m_Layer: 11
   m_Name: smallCoin (32)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -1324,6 +1828,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105600960}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &105600966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105600960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &112077764
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,7 +1919,7 @@ Transform:
   - {fileID: 2098312723}
   - {fileID: 1925139613}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &112077766
 MonoBehaviour:
@@ -1415,8 +1933,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_OverrideArea: 0
-  m_Area: 0
+  m_OverrideArea: 1
+  m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
 --- !u!1 &125349469
@@ -1432,7 +1950,8 @@ GameObject:
   - component: {fileID: 125349473}
   - component: {fileID: 125349472}
   - component: {fileID: 125349471}
-  m_Layer: 0
+  - component: {fileID: 125349475}
+  m_Layer: 11
   m_Name: smallCoin (70)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -1527,6 +2046,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125349469}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &125349475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125349469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &128020023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,7 +2073,7 @@ GameObject:
   - component: {fileID: 128020027}
   - component: {fileID: 128020026}
   - component: {fileID: 128020025}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (33)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -1647,6 +2180,7 @@ GameObject:
   - component: {fileID: 144672108}
   - component: {fileID: 144672107}
   - component: {fileID: 144672106}
+  - component: {fileID: 144672110}
   m_Layer: 10
   m_Name: Cube (35)
   m_TagString: Untagged
@@ -1726,6 +2260,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &144672110
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144672105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.0000076293945, y: 0, z: -0.0000007748604}
 --- !u!1 &148262417
 GameObject:
   m_ObjectHideFlags: 0
@@ -1738,6 +2285,7 @@ GameObject:
   - component: {fileID: 148262420}
   - component: {fileID: 148262419}
   - component: {fileID: 148262418}
+  - component: {fileID: 148262422}
   m_Layer: 10
   m_Name: top portal wall
   m_TagString: Untagged
@@ -1817,6 +2365,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &148262422
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148262417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000013113022, y: 0, z: 0.00000011920929}
 --- !u!1 &155458542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1830,7 +2391,7 @@ GameObject:
   - component: {fileID: 155458546}
   - component: {fileID: 155458545}
   - component: {fileID: 155458544}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (34)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -1925,6 +2486,97 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155458542}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &155989653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155989654}
+  - component: {fileID: 155989656}
+  - component: {fileID: 155989655}
+  m_Layer: 0
+  m_Name: score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155989654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155989653}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.9000006, y: 2.963654, z: 9.61}
+  m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 1566381642}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &155989655
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155989653}
+  m_Text: Score = 0
+  m_OffsetZ: 0
+  m_CharacterSize: 0.5
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 9
+  m_FontStyle: 0
+  m_RichText: 0
+  m_Font: {fileID: 12800000, guid: d927b0ae8a48c466799b8087b8200990, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &155989656
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155989653}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d927b0ae8a48c466799b8087b8200990, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &159030641
 GameObject:
   m_ObjectHideFlags: 0
@@ -1937,6 +2589,7 @@ GameObject:
   - component: {fileID: 159030645}
   - component: {fileID: 159030644}
   - component: {fileID: 159030643}
+  - component: {fileID: 159030646}
   m_Layer: 10
   m_Name: top side
   m_TagString: Untagged
@@ -2016,6 +2669,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159030641}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &159030646
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159030641}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.00000047683716}
 --- !u!1 &163399810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,7 +2695,8 @@ GameObject:
   - component: {fileID: 163399814}
   - component: {fileID: 163399813}
   - component: {fileID: 163399812}
-  m_Layer: 0
+  - component: {fileID: 163399816}
+  m_Layer: 11
   m_Name: smallCoin (60)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -2124,6 +2791,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163399810}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &163399816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163399810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &164704961
 GameObject:
   m_ObjectHideFlags: 0
@@ -2137,7 +2818,8 @@ GameObject:
   - component: {fileID: 164704965}
   - component: {fileID: 164704964}
   - component: {fileID: 164704963}
-  m_Layer: 0
+  - component: {fileID: 164704967}
+  m_Layer: 11
   m_Name: smallCoin (72)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -2232,6 +2914,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164704961}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &164704967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164704961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &167982628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2245,7 +2941,8 @@ GameObject:
   - component: {fileID: 167982632}
   - component: {fileID: 167982631}
   - component: {fileID: 167982630}
-  m_Layer: 0
+  - component: {fileID: 167982634}
+  m_Layer: 11
   m_Name: smallCoin (42)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -2340,6 +3037,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167982628}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &167982634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167982628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &181109920
 GameObject:
   m_ObjectHideFlags: 0
@@ -2353,7 +3064,8 @@ GameObject:
   - component: {fileID: 181109924}
   - component: {fileID: 181109923}
   - component: {fileID: 181109922}
-  m_Layer: 0
+  - component: {fileID: 181109926}
+  m_Layer: 11
   m_Name: bigCoin
   m_TagString: bigCoin
   m_Icon: {fileID: 0}
@@ -2448,6 +3160,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181109920}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &181109926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181109920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &186250293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2461,7 +3187,7 @@ GameObject:
   - component: {fileID: 186250297}
   - component: {fileID: 186250296}
   - component: {fileID: 186250295}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (32)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -2569,7 +3295,7 @@ GameObject:
   - component: {fileID: 192587115}
   - component: {fileID: 192587114}
   - component: {fileID: 192587113}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (37)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -2677,7 +3403,8 @@ GameObject:
   - component: {fileID: 203227260}
   - component: {fileID: 203227259}
   - component: {fileID: 203227258}
-  m_Layer: 0
+  - component: {fileID: 203227262}
+  m_Layer: 11
   m_Name: smallCoin (51)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -2772,6 +3499,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203227256}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &203227262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203227256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &211281571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2785,7 +3526,7 @@ GameObject:
   - component: {fileID: 211281575}
   - component: {fileID: 211281574}
   - component: {fileID: 211281573}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (34)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -2892,6 +3633,7 @@ GameObject:
   - component: {fileID: 223512336}
   - component: {fileID: 223512335}
   - component: {fileID: 223512334}
+  - component: {fileID: 223512338}
   m_Layer: 10
   m_Name: Cube (6)
   m_TagString: Untagged
@@ -2971,6 +3713,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &223512338
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223512333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000006}
+  m_Center: {x: -0.00000166893, y: 0, z: 0}
 --- !u!1 &226462577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2984,7 +3739,7 @@ GameObject:
   - component: {fileID: 226462581}
   - component: {fileID: 226462580}
   - component: {fileID: 226462579}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (28)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -3092,7 +3847,7 @@ GameObject:
   - component: {fileID: 238981852}
   - component: {fileID: 238981851}
   - component: {fileID: 238981850}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (35)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -3199,6 +3954,7 @@ GameObject:
   - component: {fileID: 272114689}
   - component: {fileID: 272114688}
   - component: {fileID: 272114687}
+  - component: {fileID: 272114691}
   m_Layer: 10
   m_Name: Cube (14)
   m_TagString: Untagged
@@ -3278,6 +4034,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &272114691
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272114686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.0000009536744, y: 0, z: -0.0000038146973}
 --- !u!1 &296766546
 GameObject:
   m_ObjectHideFlags: 0
@@ -3291,7 +4060,8 @@ GameObject:
   - component: {fileID: 296766550}
   - component: {fileID: 296766549}
   - component: {fileID: 296766548}
-  m_Layer: 0
+  - component: {fileID: 296766552}
+  m_Layer: 11
   m_Name: smallCoin (34)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -3386,6 +4156,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296766546}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &296766552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296766546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &307367642
 GameObject:
   m_ObjectHideFlags: 0
@@ -3399,7 +4183,8 @@ GameObject:
   - component: {fileID: 307367645}
   - component: {fileID: 307367644}
   - component: {fileID: 307367647}
-  m_Layer: 0
+  - component: {fileID: 307367648}
+  m_Layer: 11
   m_Name: smallCoin
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -3494,6 +4279,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &307367648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307367642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &312939579
 GameObject:
   m_ObjectHideFlags: 0
@@ -3506,6 +4305,7 @@ GameObject:
   - component: {fileID: 312939582}
   - component: {fileID: 312939581}
   - component: {fileID: 312939580}
+  - component: {fileID: 312939584}
   m_Layer: 10
   m_Name: Cube (21)
   m_TagString: Untagged
@@ -3585,6 +4385,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &312939584
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312939579}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.000004053116, y: 0, z: -0.000001847744}
 --- !u!1 &316872072
 GameObject:
   m_ObjectHideFlags: 0
@@ -3598,7 +4411,8 @@ GameObject:
   - component: {fileID: 316872076}
   - component: {fileID: 316872075}
   - component: {fileID: 316872074}
-  m_Layer: 0
+  - component: {fileID: 316872078}
+  m_Layer: 11
   m_Name: smallCoin (61)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -3693,6 +4507,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316872072}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &316872078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316872072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &331645967
 GameObject:
   m_ObjectHideFlags: 0
@@ -3706,7 +4534,8 @@ GameObject:
   - component: {fileID: 331645971}
   - component: {fileID: 331645970}
   - component: {fileID: 331645969}
-  m_Layer: 0
+  - component: {fileID: 331645973}
+  m_Layer: 11
   m_Name: smallCoin (69)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -3801,6 +4630,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331645967}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &331645973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331645967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &335849152
 GameObject:
   m_ObjectHideFlags: 0
@@ -3813,6 +4656,7 @@ GameObject:
   - component: {fileID: 335849155}
   - component: {fileID: 335849154}
   - component: {fileID: 335849153}
+  - component: {fileID: 335849157}
   m_Layer: 10
   m_Name: Cube (11)
   m_TagString: Untagged
@@ -3892,6 +4736,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &335849157
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335849152}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.0000009536744, y: 0, z: -0.0000019073486}
 --- !u!1 &355429576
 GameObject:
   m_ObjectHideFlags: 0
@@ -3905,7 +4762,8 @@ GameObject:
   - component: {fileID: 355429580}
   - component: {fileID: 355429579}
   - component: {fileID: 355429578}
-  m_Layer: 0
+  - component: {fileID: 355429582}
+  m_Layer: 11
   m_Name: smallCoin (56)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -4000,6 +4858,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355429576}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &355429582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355429576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &356324877
 GameObject:
   m_ObjectHideFlags: 0
@@ -4013,7 +4885,8 @@ GameObject:
   - component: {fileID: 356324881}
   - component: {fileID: 356324880}
   - component: {fileID: 356324879}
-  m_Layer: 0
+  - component: {fileID: 356324883}
+  m_Layer: 11
   m_Name: smallCoin (45)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -4108,6 +4981,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356324877}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &356324883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356324877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &364726725
 GameObject:
   m_ObjectHideFlags: 0
@@ -4121,7 +5008,7 @@ GameObject:
   - component: {fileID: 364726729}
   - component: {fileID: 364726728}
   - component: {fileID: 364726727}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (43)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -4297,6 +5184,7 @@ GameObject:
   - component: {fileID: 378785388}
   - component: {fileID: 378785387}
   - component: {fileID: 378785386}
+  - component: {fileID: 378785390}
   m_Layer: 10
   m_Name: Cube (22)
   m_TagString: Untagged
@@ -4376,6 +5264,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &378785390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378785385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.00000500679, y: 0, z: -0.00000075499213}
 --- !u!1 &393876187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4388,7 +5289,7 @@ GameObject:
   - component: {fileID: 393876190}
   - component: {fileID: 393876189}
   m_Layer: 0
-  m_Name: PacmanLeaderboard
+  m_Name: score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4402,11 +5303,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393876187}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 9.73, y: 3.705, z: 5.7599998}
+  m_LocalPosition: {x: 7.2401133, y: 3.563654, z: 5.770157}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1566381642}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!102 &393876189
 TextMesh:
@@ -4416,15 +5317,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393876187}
-  m_Text: '04/13/2019 -- 1092
-
-    03/12/2019 -- 1090
-
-    08/20/2018 -- 1001
-
-    04/10/2019 -- 900
-
-    04/07/2019 -- 872'
+  m_Text: Score = 0
   m_OffsetZ: 0
   m_CharacterSize: 0.5
   m_LineSpacing: 1
@@ -4484,6 +5377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 404277466}
+  - component: {fileID: 404277467}
   m_Layer: 10
   m_Name: top sides 2
   m_TagString: Untagged
@@ -4505,6 +5399,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!65 &404277467
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404277465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &421046583
 GameObject:
   m_ObjectHideFlags: 0
@@ -4518,7 +5425,7 @@ GameObject:
   - component: {fileID: 421046587}
   - component: {fileID: 421046586}
   - component: {fileID: 421046585}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (36)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -4626,7 +5533,8 @@ GameObject:
   - component: {fileID: 437560463}
   - component: {fileID: 437560462}
   - component: {fileID: 437560461}
-  m_Layer: 0
+  - component: {fileID: 437560465}
+  m_Layer: 11
   m_Name: smallCoin (65)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -4721,6 +5629,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437560459}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &437560465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437560459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &439290835
 GameObject:
   m_ObjectHideFlags: 0
@@ -4733,6 +5655,7 @@ GameObject:
   - component: {fileID: 439290838}
   - component: {fileID: 439290837}
   - component: {fileID: 439290836}
+  - component: {fileID: 439290840}
   m_Layer: 10
   m_Name: Cube (20)
   m_TagString: Untagged
@@ -4812,6 +5735,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &439290840
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439290835}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000035762787, y: 0, z: -0.0000021457672}
 --- !u!1 &450261628
 GameObject:
   m_ObjectHideFlags: 0
@@ -4825,7 +5761,8 @@ GameObject:
   - component: {fileID: 450261632}
   - component: {fileID: 450261631}
   - component: {fileID: 450261630}
-  m_Layer: 0
+  - component: {fileID: 450261634}
+  m_Layer: 11
   m_Name: smallCoin (66)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -4920,6 +5857,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450261628}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &450261634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450261628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &451429011
 GameObject:
   m_ObjectHideFlags: 0
@@ -4932,6 +5883,7 @@ GameObject:
   - component: {fileID: 451429014}
   - component: {fileID: 451429013}
   - component: {fileID: 451429012}
+  - component: {fileID: 451429016}
   m_Layer: 10
   m_Name: Cube (30)
   m_TagString: Untagged
@@ -5011,6 +5963,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &451429016
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451429011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000047683716, y: 0, z: -0.000002861023}
 --- !u!1 &452228386
 GameObject:
   m_ObjectHideFlags: 0
@@ -5024,7 +5989,8 @@ GameObject:
   - component: {fileID: 452228390}
   - component: {fileID: 452228389}
   - component: {fileID: 452228388}
-  m_Layer: 0
+  - component: {fileID: 452228392}
+  m_Layer: 11
   m_Name: smallCoin (27)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -5119,6 +6085,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452228386}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &452228392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452228386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &457925959
 GameObject:
   m_ObjectHideFlags: 0
@@ -5132,7 +6112,7 @@ GameObject:
   - component: {fileID: 457925963}
   - component: {fileID: 457925962}
   - component: {fileID: 457925961}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (35)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -5240,7 +6220,8 @@ GameObject:
   - component: {fileID: 468163708}
   - component: {fileID: 468163707}
   - component: {fileID: 468163706}
-  m_Layer: 0
+  - component: {fileID: 468163710}
+  m_Layer: 11
   m_Name: bigCoin (3)
   m_TagString: bigCoin
   m_Icon: {fileID: 0}
@@ -5335,6 +6316,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468163704}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &468163710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468163704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &484759296
 GameObject:
   m_ObjectHideFlags: 0
@@ -5348,7 +6343,8 @@ GameObject:
   - component: {fileID: 484759300}
   - component: {fileID: 484759299}
   - component: {fileID: 484759298}
-  m_Layer: 0
+  - component: {fileID: 484759302}
+  m_Layer: 11
   m_Name: smallCoin (19)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -5443,6 +6439,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484759296}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &484759302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484759296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &485343888
 GameObject:
   m_ObjectHideFlags: 0
@@ -5456,7 +6466,8 @@ GameObject:
   - component: {fileID: 485343892}
   - component: {fileID: 485343891}
   - component: {fileID: 485343890}
-  m_Layer: 0
+  - component: {fileID: 485343894}
+  m_Layer: 11
   m_Name: smallCoin (63)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -5551,6 +6562,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485343888}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &485343894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485343888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &487404564
 GameObject:
   m_ObjectHideFlags: 0
@@ -5564,7 +6589,7 @@ GameObject:
   - component: {fileID: 487404568}
   - component: {fileID: 487404567}
   - component: {fileID: 487404566}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (36)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -5671,6 +6696,7 @@ GameObject:
   - component: {fileID: 524016166}
   - component: {fileID: 524016165}
   - component: {fileID: 524016164}
+  - component: {fileID: 524016168}
   m_Layer: 10
   m_Name: top side 2
   m_TagString: Untagged
@@ -5750,6 +6776,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &524016168
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524016163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: 0, y: 0, z: -0.00000017881393}
 --- !u!1 &527315533
 GameObject:
   m_ObjectHideFlags: 0
@@ -5766,7 +6805,7 @@ GameObject:
   - component: {fileID: 527315539}
   m_Layer: 0
   m_Name: Ghost2
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5798,6 +6837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  eatGhost: {fileID: 1151849506}
 --- !u!136 &527315536
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5806,7 +6846,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527315533}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -5867,7 +6907,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -5892,7 +6932,7 @@ GameObject:
   - component: {fileID: 528317052}
   - component: {fileID: 528317051}
   - component: {fileID: 528317050}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (28)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -6000,7 +7040,8 @@ GameObject:
   - component: {fileID: 538715737}
   - component: {fileID: 538715736}
   - component: {fileID: 538715735}
-  m_Layer: 0
+  - component: {fileID: 538715739}
+  m_Layer: 11
   m_Name: smallCoin (50)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -6095,6 +7136,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538715733}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &538715739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538715733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &552478951
 GameObject:
   m_ObjectHideFlags: 0
@@ -6108,7 +7163,8 @@ GameObject:
   - component: {fileID: 552478955}
   - component: {fileID: 552478954}
   - component: {fileID: 552478953}
-  m_Layer: 0
+  - component: {fileID: 552478957}
+  m_Layer: 11
   m_Name: smallCoin (73)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -6203,6 +7259,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552478951}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &552478957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552478951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &561304513
 GameObject:
   m_ObjectHideFlags: 0
@@ -6215,6 +7285,7 @@ GameObject:
   - component: {fileID: 561304516}
   - component: {fileID: 561304515}
   - component: {fileID: 561304514}
+  - component: {fileID: 561304518}
   m_Layer: 10
   m_Name: Cube (24)
   m_TagString: Untagged
@@ -6294,6 +7365,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &561304518
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561304513}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.0000038146973, y: 0, z: -0.0000017285347}
 --- !u!1 &581840036
 GameObject:
   m_ObjectHideFlags: 0
@@ -6307,7 +7391,8 @@ GameObject:
   - component: {fileID: 581840040}
   - component: {fileID: 581840039}
   - component: {fileID: 581840038}
-  m_Layer: 0
+  - component: {fileID: 581840042}
+  m_Layer: 11
   m_Name: smallCoin (13)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -6402,6 +7487,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 581840036}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &581840042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581840036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &590975730
 GameObject:
   m_ObjectHideFlags: 0
@@ -6414,6 +7513,7 @@ GameObject:
   - component: {fileID: 590975733}
   - component: {fileID: 590975732}
   - component: {fileID: 590975731}
+  - component: {fileID: 590975735}
   m_Layer: 10
   m_Name: top side
   m_TagString: Untagged
@@ -6493,6 +7593,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &590975735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590975730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.0000038146973, y: 0, z: -0.00000011920929}
 --- !u!1 &594512650
 GameObject:
   m_ObjectHideFlags: 0
@@ -6506,7 +7619,8 @@ GameObject:
   - component: {fileID: 594512654}
   - component: {fileID: 594512653}
   - component: {fileID: 594512652}
-  m_Layer: 0
+  - component: {fileID: 594512656}
+  m_Layer: 11
   m_Name: smallCoin (57)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -6601,6 +7715,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594512650}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &594512656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594512650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &613011928
 GameObject:
   m_ObjectHideFlags: 0
@@ -6614,7 +7742,8 @@ GameObject:
   - component: {fileID: 613011932}
   - component: {fileID: 613011931}
   - component: {fileID: 613011930}
-  m_Layer: 0
+  - component: {fileID: 613011934}
+  m_Layer: 11
   m_Name: smallCoin (29)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -6709,6 +7838,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613011928}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &613011934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613011928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &616053659
 GameObject:
   m_ObjectHideFlags: 0
@@ -6722,7 +7865,7 @@ GameObject:
   - component: {fileID: 616053663}
   - component: {fileID: 616053662}
   - component: {fileID: 616053661}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (39)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -6829,6 +7972,7 @@ GameObject:
   - component: {fileID: 617686096}
   - component: {fileID: 617686095}
   - component: {fileID: 617686094}
+  - component: {fileID: 617686098}
   m_Layer: 10
   m_Name: Cube (10)
   m_TagString: Untagged
@@ -6908,6 +8052,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &617686098
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617686093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.00000166893, y: 0, z: -0.0000009536743}
 --- !u!1 &619033267
 GameObject:
   m_ObjectHideFlags: 0
@@ -6921,7 +8078,8 @@ GameObject:
   - component: {fileID: 619033271}
   - component: {fileID: 619033270}
   - component: {fileID: 619033269}
-  m_Layer: 0
+  - component: {fileID: 619033273}
+  m_Layer: 11
   m_Name: smallCoin (11)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -7016,6 +8174,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619033267}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &619033273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619033267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &640136873
 GameObject:
   m_ObjectHideFlags: 0
@@ -7029,7 +8201,8 @@ GameObject:
   - component: {fileID: 640136877}
   - component: {fileID: 640136876}
   - component: {fileID: 640136875}
-  m_Layer: 0
+  - component: {fileID: 640136879}
+  m_Layer: 11
   m_Name: smallCoin (59)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -7124,6 +8297,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640136873}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &640136879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640136873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &640681335
 GameObject:
   m_ObjectHideFlags: 0
@@ -7173,7 +8360,7 @@ MonoBehaviour:
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 5431
   m_UseGeometry: 0
   m_DefaultArea: 0
   m_IgnoreNavMeshAgent: 1
@@ -7197,7 +8384,7 @@ GameObject:
   - component: {fileID: 658471929}
   - component: {fileID: 658471928}
   - component: {fileID: 658471927}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (41)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -7305,7 +8492,8 @@ GameObject:
   - component: {fileID: 664258865}
   - component: {fileID: 664258864}
   - component: {fileID: 664258863}
-  m_Layer: 0
+  - component: {fileID: 664258867}
+  m_Layer: 11
   m_Name: smallCoin (3)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -7400,6 +8588,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664258861}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &664258867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664258861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &670161299
 GameObject:
   m_ObjectHideFlags: 0
@@ -7412,6 +8614,7 @@ GameObject:
   - component: {fileID: 670161302}
   - component: {fileID: 670161301}
   - component: {fileID: 670161300}
+  - component: {fileID: 670161304}
   m_Layer: 10
   m_Name: Cube (33)
   m_TagString: Untagged
@@ -7491,6 +8694,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &670161304
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670161299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.000006198883, y: 0, z: 0}
 --- !u!1 &673749708
 GameObject:
   m_ObjectHideFlags: 0
@@ -7503,6 +8719,7 @@ GameObject:
   - component: {fileID: 673749711}
   - component: {fileID: 673749710}
   - component: {fileID: 673749709}
+  - component: {fileID: 673749713}
   m_Layer: 10
   m_Name: Cube (7)
   m_TagString: Untagged
@@ -7582,6 +8799,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &673749713
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673749708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000006}
+  m_Center: {x: -0.0000013113022, y: 0, z: 0}
 --- !u!1 &676634961
 GameObject:
   m_ObjectHideFlags: 0
@@ -7594,6 +8824,7 @@ GameObject:
   - component: {fileID: 676634964}
   - component: {fileID: 676634963}
   - component: {fileID: 676634962}
+  - component: {fileID: 676634966}
   m_Layer: 10
   m_Name: Cube (27)
   m_TagString: Untagged
@@ -7673,6 +8904,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &676634966
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676634961}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.0000009536744, y: 0, z: -0.0000076293945}
 --- !u!1 &684730677
 GameObject:
   m_ObjectHideFlags: 0
@@ -7686,7 +8930,8 @@ GameObject:
   - component: {fileID: 684730681}
   - component: {fileID: 684730680}
   - component: {fileID: 684730679}
-  m_Layer: 0
+  - component: {fileID: 684730683}
+  m_Layer: 11
   m_Name: smallCoin (67)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -7781,6 +9026,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684730677}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &684730683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684730677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &690801045
 GameObject:
   m_ObjectHideFlags: 0
@@ -7794,7 +9053,7 @@ GameObject:
   - component: {fileID: 690801049}
   - component: {fileID: 690801048}
   - component: {fileID: 690801047}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (33)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -7901,6 +9160,7 @@ GameObject:
   - component: {fileID: 695094674}
   - component: {fileID: 695094673}
   - component: {fileID: 695094672}
+  - component: {fileID: 695094676}
   m_Layer: 10
   m_Name: Cube (28)
   m_TagString: Untagged
@@ -7980,6 +9240,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &695094676
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695094671}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.0000019073486, y: 0, z: -0.0000007748604}
 --- !u!1 &700500355
 GameObject:
   m_ObjectHideFlags: 0
@@ -7993,7 +9266,8 @@ GameObject:
   - component: {fileID: 700500359}
   - component: {fileID: 700500358}
   - component: {fileID: 700500357}
-  m_Layer: 0
+  - component: {fileID: 700500361}
+  m_Layer: 11
   m_Name: smallCoin (36)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -8088,6 +9362,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700500355}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &700500361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700500355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &759288923
 GameObject:
   m_ObjectHideFlags: 0
@@ -8101,7 +9389,8 @@ GameObject:
   - component: {fileID: 759288927}
   - component: {fileID: 759288926}
   - component: {fileID: 759288925}
-  m_Layer: 0
+  - component: {fileID: 759288929}
+  m_Layer: 11
   m_Name: smallCoin (8)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -8196,6 +9485,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759288923}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &759288929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759288923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &786007593
 GameObject:
   m_ObjectHideFlags: 0
@@ -8208,6 +9511,7 @@ GameObject:
   - component: {fileID: 786007596}
   - component: {fileID: 786007595}
   - component: {fileID: 786007594}
+  - component: {fileID: 786007598}
   m_Layer: 10
   m_Name: Cube (12)
   m_TagString: Untagged
@@ -8287,6 +9591,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &786007598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786007593}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.0000038146973, y: 0, z: -0.0000011920929}
 --- !u!1 &810145438
 GameObject:
   m_ObjectHideFlags: 0
@@ -8300,7 +9617,7 @@ GameObject:
   - component: {fileID: 810145442}
   - component: {fileID: 810145441}
   - component: {fileID: 810145440}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (34)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -8408,7 +9725,8 @@ GameObject:
   - component: {fileID: 818969253}
   - component: {fileID: 818969252}
   - component: {fileID: 818969251}
-  m_Layer: 0
+  - component: {fileID: 818969255}
+  m_Layer: 11
   m_Name: smallCoin (17)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -8503,6 +9821,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818969249}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &818969255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818969249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &826075105
 GameObject:
   m_ObjectHideFlags: 0
@@ -8516,7 +9848,7 @@ GameObject:
   - component: {fileID: 826075109}
   - component: {fileID: 826075108}
   - component: {fileID: 826075107}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (30)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -8624,7 +9956,7 @@ GameObject:
   - component: {fileID: 833075565}
   - component: {fileID: 833075564}
   - component: {fileID: 833075563}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (32)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -8732,7 +10064,8 @@ GameObject:
   - component: {fileID: 836684985}
   - component: {fileID: 836684984}
   - component: {fileID: 836684983}
-  m_Layer: 0
+  - component: {fileID: 836684987}
+  m_Layer: 11
   m_Name: smallCoin (23)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -8827,6 +10160,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836684981}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &836684987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836684981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &839284667
 GameObject:
   m_ObjectHideFlags: 0
@@ -8840,7 +10187,7 @@ GameObject:
   - component: {fileID: 839284671}
   - component: {fileID: 839284670}
   - component: {fileID: 839284669}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (30)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -8948,7 +10295,8 @@ GameObject:
   - component: {fileID: 864644702}
   - component: {fileID: 864644701}
   - component: {fileID: 864644700}
-  m_Layer: 0
+  - component: {fileID: 864644704}
+  m_Layer: 11
   m_Name: smallCoin (33)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -9043,6 +10391,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864644698}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &864644704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864644698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &884997113
 GameObject:
   m_ObjectHideFlags: 0
@@ -9056,7 +10418,8 @@ GameObject:
   - component: {fileID: 884997117}
   - component: {fileID: 884997116}
   - component: {fileID: 884997115}
-  m_Layer: 0
+  - component: {fileID: 884997119}
+  m_Layer: 11
   m_Name: smallCoin (53)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -9151,6 +10514,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884997113}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &884997119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884997113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &886298210
 GameObject:
   m_ObjectHideFlags: 0
@@ -9164,7 +10541,7 @@ GameObject:
   - component: {fileID: 886298214}
   - component: {fileID: 886298213}
   - component: {fileID: 886298212}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (31)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -9272,7 +10649,8 @@ GameObject:
   - component: {fileID: 893366092}
   - component: {fileID: 893366091}
   - component: {fileID: 893366090}
-  m_Layer: 0
+  - component: {fileID: 893366094}
+  m_Layer: 11
   m_Name: smallCoin (28)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -9367,6 +10745,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893366088}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &893366094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893366088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &897718290
 GameObject:
   m_ObjectHideFlags: 0
@@ -9380,7 +10772,8 @@ GameObject:
   - component: {fileID: 897718294}
   - component: {fileID: 897718293}
   - component: {fileID: 897718292}
-  m_Layer: 0
+  - component: {fileID: 897718296}
+  m_Layer: 11
   m_Name: smallCoin (64)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -9475,6 +10868,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897718290}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &897718296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897718290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &902583575
 GameObject:
   m_ObjectHideFlags: 0
@@ -9487,6 +10894,7 @@ GameObject:
   - component: {fileID: 902583578}
   - component: {fileID: 902583577}
   - component: {fileID: 902583576}
+  - component: {fileID: 902583580}
   m_Layer: 10
   m_Name: Cube (25)
   m_TagString: Untagged
@@ -9566,6 +10974,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &902583580
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902583575}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000052452087, y: 0, z: -0.00000166893}
 --- !u!1 &913289361
 GameObject:
   m_ObjectHideFlags: 0
@@ -9582,7 +11003,7 @@ GameObject:
   - component: {fileID: 913289367}
   m_Layer: 0
   m_Name: Ghost4
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9614,6 +11035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  eatGhost: {fileID: 1151849506}
 --- !u!136 &913289364
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9622,7 +11044,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913289361}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -9683,7 +11105,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -9708,7 +11130,8 @@ GameObject:
   - component: {fileID: 941390809}
   - component: {fileID: 941390808}
   - component: {fileID: 941390807}
-  m_Layer: 0
+  - component: {fileID: 941390811}
+  m_Layer: 11
   m_Name: smallCoin (9)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -9803,6 +11226,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941390805}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &941390811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941390805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &942160140
 GameObject:
   m_ObjectHideFlags: 0
@@ -9812,7 +11249,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 942160141}
-  m_Layer: 0
+  - component: {fileID: 942160142}
+  m_Layer: 11
   m_Name: group1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9851,6 +11289,20 @@ Transform:
   m_Father: {fileID: 1955046040}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &942160142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942160140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &964211032
 GameObject:
   m_ObjectHideFlags: 0
@@ -9864,7 +11316,7 @@ GameObject:
   - component: {fileID: 964211036}
   - component: {fileID: 964211035}
   - component: {fileID: 964211034}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (36)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -9972,7 +11424,7 @@ GameObject:
   - component: {fileID: 965407529}
   - component: {fileID: 965407528}
   - component: {fileID: 965407527}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (35)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -10080,7 +11532,8 @@ GameObject:
   - component: {fileID: 965479138}
   - component: {fileID: 965479137}
   - component: {fileID: 965479136}
-  m_Layer: 0
+  - component: {fileID: 965479140}
+  m_Layer: 11
   m_Name: bigCoin (2)
   m_TagString: bigCoin
   m_Icon: {fileID: 0}
@@ -10175,6 +11628,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965479134}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &965479140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965479134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &971879956
 GameObject:
   m_ObjectHideFlags: 0
@@ -10188,7 +11655,7 @@ GameObject:
   - component: {fileID: 971879960}
   - component: {fileID: 971879959}
   - component: {fileID: 971879958}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (45)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -10296,7 +11763,8 @@ GameObject:
   - component: {fileID: 983394811}
   - component: {fileID: 983394810}
   - component: {fileID: 983394809}
-  m_Layer: 0
+  - component: {fileID: 983394813}
+  m_Layer: 11
   m_Name: smallCoin (54)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -10391,6 +11859,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983394807}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &983394813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983394807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &994070739
 GameObject:
   m_ObjectHideFlags: 0
@@ -10404,7 +11886,7 @@ GameObject:
   - component: {fileID: 994070743}
   - component: {fileID: 994070742}
   - component: {fileID: 994070741}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (30)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -10593,6 +12075,7 @@ GameObject:
   - component: {fileID: 1005601690}
   - component: {fileID: 1005601689}
   - component: {fileID: 1005601688}
+  - component: {fileID: 1005601692}
   m_Layer: 10
   m_Name: Cube (23)
   m_TagString: Untagged
@@ -10672,6 +12155,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1005601692
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005601687}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.0000038146973, y: 0, z: -0.0000013411045}
 --- !u!1 &1015285768
 GameObject:
   m_ObjectHideFlags: 0
@@ -10685,7 +12181,7 @@ GameObject:
   - component: {fileID: 1015285772}
   - component: {fileID: 1015285771}
   - component: {fileID: 1015285770}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (32)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -10796,7 +12292,7 @@ GameObject:
   - component: {fileID: 1018527550}
   m_Layer: 0
   m_Name: Ghost1
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10828,6 +12324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  eatGhost: {fileID: 1151849506}
 --- !u!136 &1018527547
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10836,7 +12333,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018527544}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -10897,7 +12394,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -10921,6 +12418,7 @@ GameObject:
   - component: {fileID: 1039863487}
   - component: {fileID: 1039863486}
   - component: {fileID: 1039863485}
+  - component: {fileID: 1039863489}
   m_Layer: 10
   m_Name: Cube (38)
   m_TagString: Untagged
@@ -11000,6 +12498,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1039863489
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039863484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000006}
+  m_Center: {x: -0.0000076293945, y: 0, z: -0.0000014305115}
 --- !u!1 &1047005970
 GameObject:
   m_ObjectHideFlags: 0
@@ -11013,7 +12524,8 @@ GameObject:
   - component: {fileID: 1047005974}
   - component: {fileID: 1047005973}
   - component: {fileID: 1047005972}
-  m_Layer: 0
+  - component: {fileID: 1047005976}
+  m_Layer: 11
   m_Name: smallCoin (10)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -11108,6 +12620,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047005970}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1047005976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047005970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1054665881
 GameObject:
   m_ObjectHideFlags: 0
@@ -11121,7 +12647,8 @@ GameObject:
   - component: {fileID: 1054665885}
   - component: {fileID: 1054665884}
   - component: {fileID: 1054665883}
-  m_Layer: 0
+  - component: {fileID: 1054665887}
+  m_Layer: 11
   m_Name: smallCoin (16)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -11216,6 +12743,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054665881}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1054665887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054665881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1067339021
 GameObject:
   m_ObjectHideFlags: 0
@@ -11228,6 +12769,7 @@ GameObject:
   - component: {fileID: 1067339025}
   - component: {fileID: 1067339024}
   - component: {fileID: 1067339023}
+  - component: {fileID: 1067339026}
   m_Layer: 10
   m_Name: top side 2
   m_TagString: Untagged
@@ -11307,6 +12849,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067339021}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1067339026
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067339021}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: 0.0000047683716, y: 0, z: 0.00000047683716}
 --- !u!1 &1075542294
 GameObject:
   m_ObjectHideFlags: 0
@@ -11320,7 +12875,8 @@ GameObject:
   - component: {fileID: 1075542298}
   - component: {fileID: 1075542297}
   - component: {fileID: 1075542296}
-  m_Layer: 0
+  - component: {fileID: 1075542300}
+  m_Layer: 11
   m_Name: bigCoin (1)
   m_TagString: bigCoin
   m_Icon: {fileID: 0}
@@ -11415,6 +12971,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075542294}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1075542300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075542294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1092458455
 GameObject:
   m_ObjectHideFlags: 0
@@ -11427,6 +12997,7 @@ GameObject:
   - component: {fileID: 1092458458}
   - component: {fileID: 1092458457}
   - component: {fileID: 1092458456}
+  - component: {fileID: 1092458460}
   m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
@@ -11506,6 +13077,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1092458460
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092458455}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: 0.0000076293945, y: -0.0000019073486, z: -0.0000019073486}
 --- !u!1 &1093049892
 GameObject:
   m_ObjectHideFlags: 0
@@ -11519,7 +13103,7 @@ GameObject:
   - component: {fileID: 1093049896}
   - component: {fileID: 1093049895}
   - component: {fileID: 1093049894}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (37)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -11626,6 +13210,7 @@ GameObject:
   - component: {fileID: 1102112532}
   - component: {fileID: 1102112531}
   - component: {fileID: 1102112530}
+  - component: {fileID: 1102112534}
   m_Layer: 10
   m_Name: Cube (9)
   m_TagString: Untagged
@@ -11705,6 +13290,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1102112534
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102112529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000006}
+  m_Center: {x: -0.00000023841858, y: 0, z: -0.00000047683716}
 --- !u!1 &1115986579
 GameObject:
   m_ObjectHideFlags: 0
@@ -11810,7 +13408,7 @@ GameObject:
   - component: {fileID: 1118701312}
   - component: {fileID: 1118701311}
   - component: {fileID: 1118701310}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (33)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -11920,6 +13518,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -11930,7 +13532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.99
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -11938,7 +13540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.z
@@ -11946,7 +13548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
@@ -11958,7 +13560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -11972,6 +13574,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 191996, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 13693334, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 13693334, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13693334, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 13693334, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_Height
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
 --- !u!1 &1121868552 stripped
@@ -11980,6 +13602,24 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1118964512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1121868554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121868552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8132e3a3fb38446799ee6f8e1c0641df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  gameSound: {fileID: 89253203}
+  gameStart: {fileID: 1578411609}
+  gameEnd: {fileID: 35466816}
+  agent: {fileID: 0}
+  waiting: 0
 --- !u!195 &1121868555
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12015,7 +13655,8 @@ GameObject:
   - component: {fileID: 1122640636}
   - component: {fileID: 1122640635}
   - component: {fileID: 1122640634}
-  m_Layer: 0
+  - component: {fileID: 1122640638}
+  m_Layer: 11
   m_Name: smallCoin (46)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -12110,6 +13751,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122640632}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1122640638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122640632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1151849504
 GameObject:
   m_ObjectHideFlags: 0
@@ -12119,6 +13774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1151849505}
+  - component: {fileID: 1151849506}
   m_Layer: 0
   m_Name: Ghosts
   m_TagString: Untagged
@@ -12142,8 +13798,104 @@ Transform:
   - {fileID: 1412059504}
   - {fileID: 913289362}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1151849506
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151849504}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 988772dd1303942728de2d5056f02f6f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1154357271
 GameObject:
   m_ObjectHideFlags: 0
@@ -12157,7 +13909,7 @@ GameObject:
   - component: {fileID: 1154357275}
   - component: {fileID: 1154357274}
   - component: {fileID: 1154357273}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (44)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -12265,7 +14017,8 @@ GameObject:
   - component: {fileID: 1162132594}
   - component: {fileID: 1162132593}
   - component: {fileID: 1162132592}
-  m_Layer: 0
+  - component: {fileID: 1162132596}
+  m_Layer: 11
   m_Name: smallCoin (35)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -12360,6 +14113,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162132590}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1162132596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162132590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1168936397
 GameObject:
   m_ObjectHideFlags: 0
@@ -12373,7 +14140,8 @@ GameObject:
   - component: {fileID: 1168936401}
   - component: {fileID: 1168936400}
   - component: {fileID: 1168936399}
-  m_Layer: 0
+  - component: {fileID: 1168936403}
+  m_Layer: 11
   m_Name: smallCoin (55)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -12468,6 +14236,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168936397}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1168936403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168936397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1180893049
 GameObject:
   m_ObjectHideFlags: 0
@@ -12481,7 +14263,8 @@ GameObject:
   - component: {fileID: 1180893053}
   - component: {fileID: 1180893052}
   - component: {fileID: 1180893051}
-  m_Layer: 0
+  - component: {fileID: 1180893055}
+  m_Layer: 11
   m_Name: smallCoin (30)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -12576,6 +14359,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180893049}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1180893055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180893049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1190989654
 GameObject:
   m_ObjectHideFlags: 0
@@ -12589,7 +14386,7 @@ GameObject:
   - component: {fileID: 1190989658}
   - component: {fileID: 1190989657}
   - component: {fileID: 1190989656}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (39)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -12697,7 +14494,8 @@ GameObject:
   - component: {fileID: 1212319739}
   - component: {fileID: 1212319738}
   - component: {fileID: 1212319737}
-  m_Layer: 0
+  - component: {fileID: 1212319741}
+  m_Layer: 11
   m_Name: smallCoin (40)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -12792,6 +14590,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212319735}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1212319741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212319735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1239520417
 GameObject:
   m_ObjectHideFlags: 0
@@ -12897,7 +14709,7 @@ GameObject:
   - component: {fileID: 1252792242}
   - component: {fileID: 1252792241}
   - component: {fileID: 1252792240}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (29)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -13005,7 +14817,8 @@ GameObject:
   - component: {fileID: 1287017665}
   - component: {fileID: 1287017664}
   - component: {fileID: 1287017663}
-  m_Layer: 0
+  - component: {fileID: 1287017667}
+  m_Layer: 11
   m_Name: smallCoin (48)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -13100,6 +14913,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287017661}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1287017667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287017661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1324555568
 GameObject:
   m_ObjectHideFlags: 0
@@ -13113,7 +14940,8 @@ GameObject:
   - component: {fileID: 1324555572}
   - component: {fileID: 1324555571}
   - component: {fileID: 1324555570}
-  m_Layer: 0
+  - component: {fileID: 1324555574}
+  m_Layer: 11
   m_Name: smallCoin (71)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -13208,6 +15036,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324555568}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1324555574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324555568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1334425420
 GameObject:
   m_ObjectHideFlags: 0
@@ -13220,6 +15062,7 @@ GameObject:
   - component: {fileID: 1334425424}
   - component: {fileID: 1334425423}
   - component: {fileID: 1334425422}
+  - component: {fileID: 1334425425}
   m_Layer: 10
   m_Name: top portal wall
   m_TagString: Untagged
@@ -13299,6 +15142,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334425420}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1334425425
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334425420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: -0.0000021457672, y: 0, z: 0}
 --- !u!1 &1368295150
 GameObject:
   m_ObjectHideFlags: 0
@@ -13312,7 +15168,7 @@ GameObject:
   - component: {fileID: 1368295154}
   - component: {fileID: 1368295153}
   - component: {fileID: 1368295152}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (28)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -13420,7 +15276,7 @@ GameObject:
   - component: {fileID: 1381233150}
   - component: {fileID: 1381233149}
   - component: {fileID: 1381233148}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (27)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -13528,7 +15384,8 @@ GameObject:
   - component: {fileID: 1388033903}
   - component: {fileID: 1388033902}
   - component: {fileID: 1388033901}
-  m_Layer: 0
+  - component: {fileID: 1388033905}
+  m_Layer: 11
   m_Name: smallCoin (4)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -13623,6 +15480,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388033899}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1388033905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388033899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1397260284
 GameObject:
   m_ObjectHideFlags: 0
@@ -13636,7 +15507,7 @@ GameObject:
   - component: {fileID: 1397260288}
   - component: {fileID: 1397260287}
   - component: {fileID: 1397260286}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (29)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -13744,7 +15615,8 @@ GameObject:
   - component: {fileID: 1399672055}
   - component: {fileID: 1399672054}
   - component: {fileID: 1399672053}
-  m_Layer: 0
+  - component: {fileID: 1399672057}
+  m_Layer: 11
   m_Name: smallCoin (62)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -13839,6 +15711,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399672051}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1399672057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399672051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1411798613
 GameObject:
   m_ObjectHideFlags: 0
@@ -13947,7 +15833,7 @@ GameObject:
   - component: {fileID: 1412059509}
   m_Layer: 0
   m_Name: Ghost3
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13979,6 +15865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  eatGhost: {fileID: 1151849506}
 --- !u!136 &1412059506
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13987,7 +15874,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412059503}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -14048,7 +15935,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -14069,7 +15956,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1417672477}
-  m_Layer: 0
+  - component: {fileID: 1417672478}
+  m_Layer: 11
   m_Name: group2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14104,6 +15992,20 @@ Transform:
   m_Father: {fileID: 1955046040}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &1417672478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417672476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1427656828
 GameObject:
   m_ObjectHideFlags: 0
@@ -14113,7 +16015,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1427656829}
-  m_Layer: 0
+  - component: {fileID: 1427656830}
+  m_Layer: 11
   m_Name: group3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14145,6 +16048,20 @@ Transform:
   m_Father: {fileID: 1955046040}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1427656830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427656828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1437669927
 GameObject:
   m_ObjectHideFlags: 0
@@ -14157,6 +16074,7 @@ GameObject:
   - component: {fileID: 1437669931}
   - component: {fileID: 1437669930}
   - component: {fileID: 1437669929}
+  - component: {fileID: 1437669932}
   m_Layer: 10
   m_Name: top portal wall
   m_TagString: Untagged
@@ -14236,6 +16154,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437669927}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1437669932
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437669927}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: -0.0000021457672, y: 0, z: 0.0000010728836}
 --- !u!1 &1442791866
 GameObject:
   m_ObjectHideFlags: 0
@@ -14249,7 +16180,7 @@ GameObject:
   - component: {fileID: 1442791870}
   - component: {fileID: 1442791869}
   - component: {fileID: 1442791868}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (40)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -14356,6 +16287,7 @@ GameObject:
   - component: {fileID: 1464622182}
   - component: {fileID: 1464622181}
   - component: {fileID: 1464622180}
+  - component: {fileID: 1464622184}
   m_Layer: 10
   m_Name: Cube (16)
   m_TagString: Untagged
@@ -14435,6 +16367,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1464622184
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464622179}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000019073486, y: 0, z: -0.000000834465}
 --- !u!1 &1483956401
 GameObject:
   m_ObjectHideFlags: 0
@@ -14448,7 +16393,7 @@ GameObject:
   - component: {fileID: 1483956405}
   - component: {fileID: 1483956404}
   - component: {fileID: 1483956403}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (42)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -14556,7 +16501,8 @@ GameObject:
   - component: {fileID: 1511598910}
   - component: {fileID: 1511598909}
   - component: {fileID: 1511598908}
-  m_Layer: 0
+  - component: {fileID: 1511598912}
+  m_Layer: 11
   m_Name: smallCoin (21)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -14651,6 +16597,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511598906}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1511598912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511598906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1522429515
 GameObject:
   m_ObjectHideFlags: 0
@@ -14660,7 +16620,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1522429516}
-  m_Layer: 0
+  - component: {fileID: 1522429517}
+  m_Layer: 11
   m_Name: group3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14688,6 +16649,102 @@ Transform:
   m_Father: {fileID: 1955046040}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1522429517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522429515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
+--- !u!1 &1535402848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1535402851}
+  - component: {fileID: 1535402850}
+  - component: {fileID: 1535402849}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1535402849
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535402848}
+  m_Enabled: 1
+--- !u!20 &1535402850
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535402848}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1535402851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535402848}
+  m_LocalRotation: {x: 0.35355338, y: -0.35355338, z: 0.1464466, w: 0.8535535}
+  m_LocalPosition: {x: 10.72, y: 10.02, z: -9.83}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 45, y: -45, z: 0}
 --- !u!1 &1545608255
 GameObject:
   m_ObjectHideFlags: 0
@@ -14697,6 +16754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1545608256}
+  - component: {fileID: 1545608257}
   m_Layer: 10
   m_Name: top sides
   m_TagString: Untagged
@@ -14718,6 +16776,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1545608257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545608255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1547165945
 GameObject:
   m_ObjectHideFlags: 0
@@ -14730,6 +16801,7 @@ GameObject:
   - component: {fileID: 1547165948}
   - component: {fileID: 1547165947}
   - component: {fileID: 1547165946}
+  - component: {fileID: 1547165950}
   m_Layer: 10
   m_Name: Cube (13)
   m_TagString: Untagged
@@ -14809,6 +16881,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1547165950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547165945}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.00000023841858, y: 0, z: -0.0000009536743}
 --- !u!1 &1550785663
 GameObject:
   m_ObjectHideFlags: 0
@@ -14822,7 +16907,8 @@ GameObject:
   - component: {fileID: 1550785667}
   - component: {fileID: 1550785666}
   - component: {fileID: 1550785665}
-  m_Layer: 0
+  - component: {fileID: 1550785669}
+  m_Layer: 11
   m_Name: smallCoin (22)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -14917,6 +17003,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550785663}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1550785669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550785663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1553932422
 GameObject:
   m_ObjectHideFlags: 0
@@ -14930,7 +17030,7 @@ GameObject:
   - component: {fileID: 1553932426}
   - component: {fileID: 1553932425}
   - component: {fileID: 1553932424}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (29)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -15025,6 +17125,97 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553932422}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1558009776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558009777}
+  - component: {fileID: 1558009779}
+  - component: {fileID: 1558009778}
+  m_Layer: 0
+  m_Name: lives
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1558009777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558009776}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 7.2401133, y: 3.06, z: 5.770157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566381642}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!102 &1558009778
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558009776}
+  m_Text: Lives = 3
+  m_OffsetZ: 0
+  m_CharacterSize: 0.5
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 9
+  m_FontStyle: 0
+  m_RichText: 0
+  m_Font: {fileID: 12800000, guid: d927b0ae8a48c466799b8087b8200990, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1558009779
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558009776}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d927b0ae8a48c466799b8087b8200990, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &1566122816
 GameObject:
   m_ObjectHideFlags: 0
@@ -15038,7 +17229,8 @@ GameObject:
   - component: {fileID: 1566122820}
   - component: {fileID: 1566122819}
   - component: {fileID: 1566122818}
-  m_Layer: 0
+  - component: {fileID: 1566122822}
+  m_Layer: 11
   m_Name: smallCoin (31)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -15133,6 +17325,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566122816}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1566122822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566122816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
+--- !u!1 &1566381641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1566381642}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1566381642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566381641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4898863, y: 0.14134598, z: -0.010157171}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2145144935}
+  - {fileID: 393876188}
+  - {fileID: 1558009777}
+  - {fileID: 2055565513}
+  - {fileID: 155989654}
+  - {fileID: 2012013462}
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1568255531
 GameObject:
   m_ObjectHideFlags: 0
@@ -15146,7 +17388,8 @@ GameObject:
   - component: {fileID: 1568255535}
   - component: {fileID: 1568255534}
   - component: {fileID: 1568255533}
-  m_Layer: 0
+  - component: {fileID: 1568255537}
+  m_Layer: 11
   m_Name: smallCoin (49)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -15241,6 +17484,147 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568255531}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1568255537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568255531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
+--- !u!1 &1578411608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1578411610}
+  - component: {fileID: 1578411609}
+  m_Layer: 0
+  m_Name: gameStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1578411609
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578411608}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: af0e0869d9bad4ba3a470c52a8ac7550, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1578411610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578411608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04, y: 0, z: -1.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1585942695
 GameObject:
   m_ObjectHideFlags: 0
@@ -15296,6 +17680,7 @@ GameObject:
   - component: {fileID: 1598370102}
   - component: {fileID: 1598370101}
   - component: {fileID: 1598370100}
+  - component: {fileID: 1598370104}
   m_Layer: 10
   m_Name: top wall
   m_TagString: Untagged
@@ -15375,6 +17760,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1598370104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598370099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.00000006291549}
 --- !u!1 &1610009433
 GameObject:
   m_ObjectHideFlags: 0
@@ -15388,7 +17786,7 @@ GameObject:
   - component: {fileID: 1610009437}
   - component: {fileID: 1610009436}
   - component: {fileID: 1610009435}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (68)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -15495,6 +17893,7 @@ GameObject:
   - component: {fileID: 1610157824}
   - component: {fileID: 1610157823}
   - component: {fileID: 1610157822}
+  - component: {fileID: 1610157826}
   m_Layer: 10
   m_Name: Cube (32)
   m_TagString: Untagged
@@ -15574,6 +17973,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1610157826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610157821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.00000667572, y: 0, z: -0.00000047683716}
 --- !u!1 &1643472682
 GameObject:
   m_ObjectHideFlags: 0
@@ -15587,7 +17999,8 @@ GameObject:
   - component: {fileID: 1643472686}
   - component: {fileID: 1643472685}
   - component: {fileID: 1643472684}
-  m_Layer: 0
+  - component: {fileID: 1643472688}
+  m_Layer: 11
   m_Name: smallCoin (54)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -15682,6 +18095,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643472682}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1643472688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643472682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1679304117
 GameObject:
   m_ObjectHideFlags: 0
@@ -15694,6 +18121,7 @@ GameObject:
   - component: {fileID: 1679304120}
   - component: {fileID: 1679304119}
   - component: {fileID: 1679304118}
+  - component: {fileID: 1679304122}
   m_Layer: 10
   m_Name: Cube (8)
   m_TagString: Untagged
@@ -15773,6 +18201,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1679304122
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679304117}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000006}
+  m_Center: {x: -0.00000059604645, y: 0, z: -0.00000047683716}
 --- !u!1 &1682026041
 GameObject:
   m_ObjectHideFlags: 0
@@ -15785,6 +18226,7 @@ GameObject:
   - component: {fileID: 1682026044}
   - component: {fileID: 1682026043}
   - component: {fileID: 1682026042}
+  - component: {fileID: 1682026046}
   m_Layer: 10
   m_Name: Cube (29)
   m_TagString: Untagged
@@ -15864,6 +18306,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1682026046
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682026041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000006}
+  m_Center: {x: -0.0000019073486, y: 0, z: -0.0000021457672}
 --- !u!1 &1684242389
 GameObject:
   m_ObjectHideFlags: 0
@@ -15877,7 +18332,7 @@ GameObject:
   - component: {fileID: 1684242393}
   - component: {fileID: 1684242392}
   - component: {fileID: 1684242391}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (40)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -15984,6 +18439,7 @@ GameObject:
   - component: {fileID: 1690288023}
   - component: {fileID: 1690288022}
   - component: {fileID: 1690288021}
+  - component: {fileID: 1690288025}
   m_Layer: 10
   m_Name: Cube (37)
   m_TagString: Untagged
@@ -16063,6 +18519,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1690288025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690288020}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000006}
+  m_Center: {x: -0.0000076293945, y: 0, z: -0.0000021457672}
 --- !u!1 &1700250540
 GameObject:
   m_ObjectHideFlags: 0
@@ -16076,7 +18545,7 @@ GameObject:
   - component: {fileID: 1700250544}
   - component: {fileID: 1700250543}
   - component: {fileID: 1700250542}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (28)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -16184,7 +18653,8 @@ GameObject:
   - component: {fileID: 1708432030}
   - component: {fileID: 1708432029}
   - component: {fileID: 1708432028}
-  m_Layer: 0
+  - component: {fileID: 1708432032}
+  m_Layer: 11
   m_Name: smallCoin (6)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -16279,6 +18749,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1708432026}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1708432032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708432026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1754124499
 GameObject:
   m_ObjectHideFlags: 0
@@ -16292,7 +18776,8 @@ GameObject:
   - component: {fileID: 1754124503}
   - component: {fileID: 1754124502}
   - component: {fileID: 1754124501}
-  m_Layer: 0
+  - component: {fileID: 1754124505}
+  m_Layer: 11
   m_Name: smallCoin (39)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -16387,6 +18872,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754124499}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1754124505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754124499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1776524162
 GameObject:
   m_ObjectHideFlags: 0
@@ -16400,7 +18899,8 @@ GameObject:
   - component: {fileID: 1776524166}
   - component: {fileID: 1776524165}
   - component: {fileID: 1776524164}
-  m_Layer: 0
+  - component: {fileID: 1776524168}
+  m_Layer: 11
   m_Name: smallCoin (43)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -16495,6 +18995,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776524162}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1776524168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776524162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1780010232
 GameObject:
   m_ObjectHideFlags: 0
@@ -16507,6 +19021,7 @@ GameObject:
   - component: {fileID: 1780010235}
   - component: {fileID: 1780010234}
   - component: {fileID: 1780010233}
+  - component: {fileID: 1780010237}
   m_Layer: 10
   m_Name: Cube (15)
   m_TagString: Untagged
@@ -16586,6 +19101,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1780010237
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780010232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000019073486, y: 0, z: -0.0000026226044}
 --- !u!1 &1795654754
 GameObject:
   m_ObjectHideFlags: 0
@@ -16599,7 +19127,8 @@ GameObject:
   - component: {fileID: 1795654758}
   - component: {fileID: 1795654757}
   - component: {fileID: 1795654756}
-  m_Layer: 0
+  - component: {fileID: 1795654760}
+  m_Layer: 11
   m_Name: smallCoin (1)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -16694,6 +19223,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795654754}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1795654760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795654754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1809762667
 GameObject:
   m_ObjectHideFlags: 0
@@ -16706,6 +19249,7 @@ GameObject:
   - component: {fileID: 1809762670}
   - component: {fileID: 1809762669}
   - component: {fileID: 1809762668}
+  - component: {fileID: 1809762672}
   m_Layer: 10
   m_Name: Cube (36)
   m_TagString: Untagged
@@ -16785,6 +19329,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1809762672
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809762667}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.00000667572, y: 0, z: -0.0000007748604}
 --- !u!1 &1817732538
 GameObject:
   m_ObjectHideFlags: 0
@@ -16798,7 +19355,8 @@ GameObject:
   - component: {fileID: 1817732542}
   - component: {fileID: 1817732541}
   - component: {fileID: 1817732540}
-  m_Layer: 0
+  - component: {fileID: 1817732544}
+  m_Layer: 11
   m_Name: smallCoin (2)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -16893,6 +19451,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817732538}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1817732544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817732538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1818571199
 GameObject:
   m_ObjectHideFlags: 0
@@ -16906,7 +19478,8 @@ GameObject:
   - component: {fileID: 1818571203}
   - component: {fileID: 1818571202}
   - component: {fileID: 1818571201}
-  m_Layer: 0
+  - component: {fileID: 1818571205}
+  m_Layer: 11
   m_Name: smallCoin (18)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -17001,6 +19574,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818571199}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1818571205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818571199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1831594961
 GameObject:
   m_ObjectHideFlags: 0
@@ -17014,7 +19601,7 @@ GameObject:
   - component: {fileID: 1831594965}
   - component: {fileID: 1831594964}
   - component: {fileID: 1831594963}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (31)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -17122,7 +19709,8 @@ GameObject:
   - component: {fileID: 1847508758}
   - component: {fileID: 1847508757}
   - component: {fileID: 1847508756}
-  m_Layer: 0
+  - component: {fileID: 1847508760}
+  m_Layer: 11
   m_Name: smallCoin (7)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -17217,6 +19805,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847508754}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1847508760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847508754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1879482693
 GameObject:
   m_ObjectHideFlags: 0
@@ -17230,7 +19832,8 @@ GameObject:
   - component: {fileID: 1879482697}
   - component: {fileID: 1879482696}
   - component: {fileID: 1879482695}
-  m_Layer: 0
+  - component: {fileID: 1879482699}
+  m_Layer: 11
   m_Name: smallCoin (41)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -17325,6 +19928,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879482693}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1879482699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879482693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1896433787
 GameObject:
   m_ObjectHideFlags: 0
@@ -17337,6 +19954,7 @@ GameObject:
   - component: {fileID: 1896433790}
   - component: {fileID: 1896433789}
   - component: {fileID: 1896433788}
+  - component: {fileID: 1896433792}
   m_Layer: 10
   m_Name: Cube (31)
   m_TagString: Untagged
@@ -17416,6 +20034,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1896433792
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896433787}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.00000667572, y: 0, z: -0.00000011920929}
 --- !u!1 &1905347495
 GameObject:
   m_ObjectHideFlags: 0
@@ -17479,6 +20110,7 @@ GameObject:
   - component: {fileID: 1912638474}
   - component: {fileID: 1912638473}
   - component: {fileID: 1912638472}
+  - component: {fileID: 1912638476}
   m_Layer: 10
   m_Name: Cube (34)
   m_TagString: Untagged
@@ -17558,6 +20190,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1912638476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912638471}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000006}
+  m_Center: {x: -0.0000019073486, y: 0, z: -0.0000014305115}
 --- !u!1 &1925139609
 GameObject:
   m_ObjectHideFlags: 0
@@ -17570,6 +20215,7 @@ GameObject:
   - component: {fileID: 1925139612}
   - component: {fileID: 1925139611}
   - component: {fileID: 1925139610}
+  - component: {fileID: 1925139614}
   m_Layer: 10
   m_Name: Cube (40)
   m_TagString: Untagged
@@ -17649,6 +20295,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1925139614
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925139609}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.00000667572, y: 0, z: -0.0000023841858}
 --- !u!1 &1927024490
 GameObject:
   m_ObjectHideFlags: 0
@@ -17662,7 +20321,7 @@ GameObject:
   - component: {fileID: 1927024494}
   - component: {fileID: 1927024493}
   - component: {fileID: 1927024492}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (32)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -17770,7 +20429,7 @@ GameObject:
   - component: {fileID: 1944907214}
   - component: {fileID: 1944907213}
   - component: {fileID: 1944907212}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (27)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -17877,6 +20536,7 @@ GameObject:
   - component: {fileID: 1953346076}
   - component: {fileID: 1953346075}
   - component: {fileID: 1953346074}
+  - component: {fileID: 1953346078}
   m_Layer: 10
   m_Name: Cube (5)
   m_TagString: Untagged
@@ -17893,7 +20553,7 @@ BoxCollider:
   m_GameObject: {fileID: 1953346073}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -17956,6 +20616,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1953346078
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953346073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Center: {x: -0.0000038146973, y: 0, z: 0}
 --- !u!1 &1955046039
 GameObject:
   m_ObjectHideFlags: 0
@@ -17965,7 +20638,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1955046040}
-  m_Layer: 0
+  - component: {fileID: 1955046041}
+  m_Layer: 11
   m_Name: Coins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18068,6 +20742,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1955046041
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955046039}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9f870509766ef4485815cfe8c35a3688, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1983904045
 GameObject:
   m_ObjectHideFlags: 0
@@ -18081,7 +20851,7 @@ GameObject:
   - component: {fileID: 1983904049}
   - component: {fileID: 1983904048}
   - component: {fileID: 1983904047}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (27)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -18189,7 +20959,8 @@ GameObject:
   - component: {fileID: 1986205718}
   - component: {fileID: 1986205717}
   - component: {fileID: 1986205716}
-  m_Layer: 0
+  - component: {fileID: 1986205720}
+  m_Layer: 11
   m_Name: smallCoin (5)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -18284,6 +21055,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986205714}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1986205720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986205714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1987936559
 GameObject:
   m_ObjectHideFlags: 0
@@ -18296,6 +21081,7 @@ GameObject:
   - component: {fileID: 1987936562}
   - component: {fileID: 1987936561}
   - component: {fileID: 1987936560}
+  - component: {fileID: 1987936564}
   m_Layer: 10
   m_Name: Cube (19)
   m_TagString: Untagged
@@ -18375,6 +21161,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1987936564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987936559}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000005, y: 1, z: 1.0000004}
+  m_Center: {x: -0.0000019073486, y: 0, z: -0.00000035762787}
 --- !u!1 &1992842254
 GameObject:
   m_ObjectHideFlags: 0
@@ -18388,7 +21187,8 @@ GameObject:
   - component: {fileID: 1992842258}
   - component: {fileID: 1992842257}
   - component: {fileID: 1992842256}
-  m_Layer: 0
+  - component: {fileID: 1992842260}
+  m_Layer: 11
   m_Name: smallCoin (38)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -18483,6 +21283,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992842254}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1992842260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992842254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &1997781742
 GameObject:
   m_ObjectHideFlags: 0
@@ -18496,7 +21310,8 @@ GameObject:
   - component: {fileID: 1997781746}
   - component: {fileID: 1997781745}
   - component: {fileID: 1997781744}
-  m_Layer: 0
+  - component: {fileID: 1997781748}
+  m_Layer: 11
   m_Name: smallCoin (15)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -18591,6 +21406,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997781742}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1997781748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997781742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &2001799328
 GameObject:
   m_ObjectHideFlags: 0
@@ -18696,7 +21525,8 @@ GameObject:
   - component: {fileID: 2001801280}
   - component: {fileID: 2001801279}
   - component: {fileID: 2001801278}
-  m_Layer: 0
+  - component: {fileID: 2001801282}
+  m_Layer: 11
   m_Name: smallCoin (14)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -18791,6 +21621,111 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001801276}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2001801282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001801276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
+--- !u!1 &2012013461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2012013462}
+  - component: {fileID: 2012013464}
+  - component: {fileID: 2012013463}
+  m_Layer: 0
+  m_Name: lives
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2012013462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012013461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.9, y: 2.46, z: 9.61}
+  m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 1566381642}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &2012013463
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012013461}
+  m_Text: Lives = 3
+  m_OffsetZ: 0
+  m_CharacterSize: 0.5
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 9
+  m_FontStyle: 0
+  m_RichText: 0
+  m_Font: {fileID: 12800000, guid: d927b0ae8a48c466799b8087b8200990, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &2012013464
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012013461}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d927b0ae8a48c466799b8087b8200990, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &2027563134
 GameObject:
   m_ObjectHideFlags: 0
@@ -18804,7 +21739,7 @@ GameObject:
   - component: {fileID: 2027563138}
   - component: {fileID: 2027563137}
   - component: {fileID: 2027563136}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (27)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -18912,7 +21847,7 @@ GameObject:
   - component: {fileID: 2032895688}
   - component: {fileID: 2032895687}
   - component: {fileID: 2032895686}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (33)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -19020,7 +21955,8 @@ GameObject:
   - component: {fileID: 2040633187}
   - component: {fileID: 2040633186}
   - component: {fileID: 2040633185}
-  m_Layer: 0
+  - component: {fileID: 2040633189}
+  m_Layer: 11
   m_Name: smallCoin (12)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -19115,6 +22051,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040633183}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2040633189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040633183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &2046415801
 GameObject:
   m_ObjectHideFlags: 0
@@ -19128,7 +22078,8 @@ GameObject:
   - component: {fileID: 2046415805}
   - component: {fileID: 2046415804}
   - component: {fileID: 2046415803}
-  m_Layer: 0
+  - component: {fileID: 2046415807}
+  m_Layer: 11
   m_Name: smallCoin (52)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -19223,6 +22174,111 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046415801}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2046415807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046415801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
+--- !u!1 &2055565512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2055565513}
+  - component: {fileID: 2055565515}
+  - component: {fileID: 2055565514}
+  m_Layer: 0
+  m_Name: PacmanLeaderboard Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2055565513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055565512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.9000006, y: 3.67, z: 9.61}
+  m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 1566381642}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &2055565514
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055565512}
+  m_Text: Pac-Man
+  m_OffsetZ: 0
+  m_CharacterSize: 0.75
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 8
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: d927b0ae8a48c466799b8087b8200990, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &2055565515
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055565512}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d927b0ae8a48c466799b8087b8200990, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &2073154646
 GameObject:
   m_ObjectHideFlags: 0
@@ -19236,7 +22292,8 @@ GameObject:
   - component: {fileID: 2073154650}
   - component: {fileID: 2073154649}
   - component: {fileID: 2073154648}
-  m_Layer: 0
+  - component: {fileID: 2073154652}
+  m_Layer: 11
   m_Name: smallCoin (20)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -19331,6 +22388,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073154646}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2073154652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073154646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &2086316050
 GameObject:
   m_ObjectHideFlags: 0
@@ -19344,7 +22415,8 @@ GameObject:
   - component: {fileID: 2086316054}
   - component: {fileID: 2086316053}
   - component: {fileID: 2086316052}
-  m_Layer: 0
+  - component: {fileID: 2086316056}
+  m_Layer: 11
   m_Name: smallCoin (25)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -19439,6 +22511,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086316050}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2086316056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086316050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &2092349802
 GameObject:
   m_ObjectHideFlags: 0
@@ -19452,7 +22538,8 @@ GameObject:
   - component: {fileID: 2092349806}
   - component: {fileID: 2092349805}
   - component: {fileID: 2092349804}
-  m_Layer: 0
+  - component: {fileID: 2092349808}
+  m_Layer: 11
   m_Name: smallCoin (26)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -19547,6 +22634,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092349802}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2092349808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092349802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &2098312719
 GameObject:
   m_ObjectHideFlags: 0
@@ -19559,6 +22660,7 @@ GameObject:
   - component: {fileID: 2098312722}
   - component: {fileID: 2098312721}
   - component: {fileID: 2098312720}
+  - component: {fileID: 2098312724}
   m_Layer: 10
   m_Name: Cube (39)
   m_TagString: Untagged
@@ -19638,6 +22740,19 @@ Transform:
   m_Father: {fileID: 112077765}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &2098312724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098312719}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000052452087, y: 0, z: -0.00000166893}
 --- !u!1 &2117238783
 GameObject:
   m_ObjectHideFlags: 0
@@ -19651,7 +22766,8 @@ GameObject:
   - component: {fileID: 2117238787}
   - component: {fileID: 2117238786}
   - component: {fileID: 2117238785}
-  m_Layer: 0
+  - component: {fileID: 2117238789}
+  m_Layer: 11
   m_Name: smallCoin (47)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -19746,6 +22862,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117238783}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2117238789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117238783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &2130271583
 GameObject:
   m_ObjectHideFlags: 0
@@ -19759,7 +22889,7 @@ GameObject:
   - component: {fileID: 2130271587}
   - component: {fileID: 2130271586}
   - component: {fileID: 2130271585}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (37)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -19867,7 +22997,8 @@ GameObject:
   - component: {fileID: 2131474215}
   - component: {fileID: 2131474214}
   - component: {fileID: 2131474213}
-  m_Layer: 0
+  - component: {fileID: 2131474217}
+  m_Layer: 11
   m_Name: smallCoin (37)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -19962,6 +23093,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131474211}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2131474217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131474211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c6884ce0b840f4a09fd3f5c69707c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chime: {fileID: 1955046041}
+  eatGhost: {fileID: 1151849506}
 --- !u!1 &2143904820
 GameObject:
   m_ObjectHideFlags: 0
@@ -19975,7 +23120,7 @@ GameObject:
   - component: {fileID: 2143904824}
   - component: {fileID: 2143904823}
   - component: {fileID: 2143904822}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: smallCoin (34)
   m_TagString: smallCoin
   m_Icon: {fileID: 0}
@@ -20096,11 +23241,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145144934}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 9.73, y: 4.225, z: 7.16}
+  m_LocalPosition: {x: 7.2401133, y: 4.22, z: 5.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 1566381642}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!102 &2145144936
 TextMesh:
@@ -20110,7 +23255,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145144934}
-  m_Text: Pac-Man Leaderboard
+  m_Text: Pac-Man
   m_OffsetZ: 0
   m_CharacterSize: 0.75
   m_LineSpacing: 1
