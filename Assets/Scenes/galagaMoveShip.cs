@@ -22,6 +22,9 @@ public class galagaMoveShip : MonoBehaviour
     public GameObject bee;
     public GameObject explosion;
 
+    public AudioSource laserSound;
+    public AudioSource explosionSound;
+
     public bool waiting = false;
 
     // Start is called before the first frame update
@@ -30,8 +33,6 @@ public class galagaMoveShip : MonoBehaviour
         //Temp
         spawnWave();
         gameActive = true;
-        //runGame();
-        //uiScript.startGame(false);
     }
 
     IEnumerator Wait(float duration)
@@ -104,6 +105,7 @@ public class galagaMoveShip : MonoBehaviour
                             //Spawn laser
                             GameObject go = GameObject.Instantiate(m_shotPrefab, diveT.position, diveT.rotation) as GameObject;
                             GameObject.Destroy(go, 0.5f);
+                            //laserSound.Play();
 
                             // Destroy Other Ship
                             GameObject.Destroy(diveT.gameObject);
@@ -112,7 +114,8 @@ public class galagaMoveShip : MonoBehaviour
                             // Animate mainShip smoke
                             GameObject explode = Instantiate(explosion, target.position, Quaternion.identity);
                             //explode.GetComponent<ParticleSystem>().Play();
-                            GameObject.Destroy(explode);
+                            explosionSound.Play();
+                            GameObject.Destroy(explode, 1.0f);
 
                             // Lose life
                             uiScript.pauseGame(true);
@@ -250,6 +253,7 @@ public class galagaMoveShip : MonoBehaviour
         //Create Laser
         GameObject go = GameObject.Instantiate(m_shotPrefab, ship.transform.position, ship.transform.rotation) as GameObject;
         GameObject.Destroy(go, 0.5f);
+        laserSound.Play();
 
         //Do Raycast Things
         Vector3 fwd = ship.transform.TransformDirection(Vector3.forward);

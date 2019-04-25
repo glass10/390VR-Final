@@ -98,48 +98,19 @@ public class uiScript : MonoBehaviour
         // Write high score to leaderboard and save
         int finalScore = galagaMoveShip.score;
         Debug.Log("Score being Recorded: " + finalScore);
-        leaderboard.Add(finalScore, System.DateTime.Now.ToString("MM/dd/yyyy"));
-        //save();
+        if(finalScore != 0)
+        {
+            leaderboard.Add(finalScore, System.DateTime.Now.ToString("MM/dd/yyyy"));
 
-        // Save Galaga Leaderboard
-        BinaryFormatter bf = new BinaryFormatter();
-        FileStream fs1 = File.Open(Application.persistentDataPath + "/galaga.dat", FileMode.OpenOrCreate);
-        bf.Serialize(fs1, leaderboard);
-        fs1.Close();
-
-        // Reset globals
-        //galagaMoveShip.score = 0;
-        //galagaMoveShip.lives = 3;
-        //galagaMoveShip.gameSpeed = 1.0;
+            // Save Galaga Leaderboard
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream fs1 = File.Open(Application.persistentDataPath + "/galaga.dat", FileMode.OpenOrCreate);
+            bf.Serialize(fs1, leaderboard);
+            fs1.Close();
+        }
 
         // Change scenes
         SceneManager.LoadScene("GameSelection", LoadSceneMode.Single);
-    }
-
-
-    // Load leaderboard
-    void load()
-    {
-        // Load Galaga Leaderboard
-        //if (File.Exists(Application.persistentDataPath + "/galaga.dat"))
-        //{
-        //    BinaryFormatter bf = new BinaryFormatter();
-        //    FileStream fs = File.OpenRead(Application.persistentDataPath + "/galaga.dat");
-        //    SortedList newLeaderboard = (SortedList)bf.Deserialize(fs);
-        //    fs.Close();
-
-        //    leaderboard = newLeaderboard;
-        //}
-    }
-
-    // Save leaderboard
-    void save()
-    {
-        // Save Galaga Leaderboard
-        BinaryFormatter bf = new BinaryFormatter();
-        FileStream fs1 = File.Open(Application.persistentDataPath + "/galaga.dat", FileMode.OpenOrCreate);
-        bf.Serialize(fs1, leaderboard);
-        fs1.Close();
     }
 
 

@@ -13,14 +13,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-24T21:43:51.487-04:00
+  lastUpdatedAtString: 2019-04-24T22:17:40.745-04:00
   initializedAtString: 2019-04-24T20:55:27.462-04:00
   entries:
-  - path: Assets/Scenes/Galaga.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Galaga.unity
-    projectPath: Assets/Scenes/Galaga.unity
+  - path: Assets/Scenes/EXPLOSION SOUND EFFECT 1.mp3
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/EXPLOSION
+      SOUND EFFECT 1.mp3
+    projectPath: Assets/Scenes/EXPLOSION SOUND EFFECT 1.mp3
     originalPath: 
-    status: 3
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/EXPLOSION SOUND EFFECT 1.mp3.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/EXPLOSION
+      SOUND EFFECT 1.mp3.meta
+    projectPath: Assets/Scenes/EXPLOSION SOUND EFFECT 1.mp3.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/EXPLOSION SOUND EFFECT.wav
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/EXPLOSION
+      SOUND EFFECT.wav
+    projectPath: Assets/Scenes/EXPLOSION SOUND EFFECT.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/EXPLOSION SOUND EFFECT.wav.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/EXPLOSION
+      SOUND EFFECT.wav.meta
+    projectPath: Assets/Scenes/EXPLOSION SOUND EFFECT.wav.meta
+    originalPath: 
+    status: 1
     staged: 0
   - path: Assets/Scenes/galagaMoveShip.cs
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/galagaMoveShip.cs
@@ -28,646 +50,29 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Assets/Scenes/Laser Gun Sound Effect.mp3
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Laser Gun
+      Sound Effect.mp3
+    projectPath: Assets/Scenes/Laser Gun Sound Effect.mp3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/Laser Gun Sound Effect.mp3.meta
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Laser Gun
+      Sound Effect.mp3.meta
+    projectPath: Assets/Scenes/Laser Gun Sound Effect.mp3.meta
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Assets/Scenes/shipCollision.cs
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/shipCollision.cs
     projectPath: Assets/Scenes/shipCollision.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scenes/shipCollision.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/shipCollision.cs.meta
-    projectPath: Assets/Scenes/shipCollision.cs.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets/Scenes/uiScript.cs
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/uiScript.cs
     projectPath: Assets/Scenes/uiScript.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scenes/updateLeaderboard.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/updateLeaderboard.cs
-    projectPath: Assets/Scenes/updateLeaderboard.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/True Explosions.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions.meta
-    projectPath: Assets/True Explosions.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes.meta
-    projectPath: Assets/True Explosions/Scenes.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/2dLabyrynth.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/2dLabyrynth.unity
-    projectPath: Assets/True Explosions/Scenes/2dLabyrynth.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/2dLabyrynth.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/2dLabyrynth.unity.meta
-    projectPath: Assets/True Explosions/Scenes/2dLabyrynth.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/2dManyCubes.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/2dManyCubes.unity
-    projectPath: Assets/True Explosions/Scenes/2dManyCubes.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/2dManyCubes.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/2dManyCubes.unity.meta
-    projectPath: Assets/True Explosions/Scenes/2dManyCubes.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/2dSecondTest.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/2dSecondTest.unity
-    projectPath: Assets/True Explosions/Scenes/2dSecondTest.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/2dSecondTest.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/2dSecondTest.unity.meta
-    projectPath: Assets/True Explosions/Scenes/2dSecondTest.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/2dWallTest.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/2dWallTest.unity
-    projectPath: Assets/True Explosions/Scenes/2dWallTest.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/2dWallTest.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/2dWallTest.unity.meta
-    projectPath: Assets/True Explosions/Scenes/2dWallTest.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/bigObject.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/bigObject.unity
-    projectPath: Assets/True Explosions/Scenes/bigObject.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/bigObject.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/bigObject.unity.meta
-    projectPath: Assets/True Explosions/Scenes/bigObject.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/bigObject2.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/bigObject2.unity
-    projectPath: Assets/True Explosions/Scenes/bigObject2.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/bigObject2.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/bigObject2.unity.meta
-    projectPath: Assets/True Explosions/Scenes/bigObject2.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/common.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/common.meta
-    projectPath: Assets/True Explosions/Scenes/common.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/common/DTNAMITE.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/common/DTNAMITE.mat
-    projectPath: Assets/True Explosions/Scenes/common/DTNAMITE.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/common/DTNAMITE.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/common/DTNAMITE.mat.meta
-    projectPath: Assets/True Explosions/Scenes/common/DTNAMITE.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/common/Transparent.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/common/Transparent.mat
-    projectPath: Assets/True Explosions/Scenes/common/Transparent.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/common/Transparent.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/common/Transparent.mat.meta
-    projectPath: Assets/True Explosions/Scenes/common/Transparent.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/heatwaveNoGravity.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/heatwaveNoGravity.unity
-    projectPath: Assets/True Explosions/Scenes/heatwaveNoGravity.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/heatwaveNoGravity.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/heatwaveNoGravity.unity.meta
-    projectPath: Assets/True Explosions/Scenes/heatwaveNoGravity.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/manyCubes.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/manyCubes.unity
-    projectPath: Assets/True Explosions/Scenes/manyCubes.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/manyCubes.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/manyCubes.unity.meta
-    projectPath: Assets/True Explosions/Scenes/manyCubes.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/second Test.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/second
-      Test.meta
-    projectPath: Assets/True Explosions/Scenes/second Test.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/second Test/MainCamera.anim
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/second
-      Test/MainCamera.anim
-    projectPath: Assets/True Explosions/Scenes/second Test/MainCamera.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/second Test/MainCamera.anim.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/second
-      Test/MainCamera.anim.meta
-    projectPath: Assets/True Explosions/Scenes/second Test/MainCamera.anim.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/second Test/MainCamera.controller
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/second
-      Test/MainCamera.controller
-    projectPath: Assets/True Explosions/Scenes/second Test/MainCamera.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/second Test/MainCamera.controller.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/second
-      Test/MainCamera.controller.meta
-    projectPath: Assets/True Explosions/Scenes/second Test/MainCamera.controller.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/secondTest.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/secondTest.unity
-    projectPath: Assets/True Explosions/Scenes/secondTest.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/secondTest.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/secondTest.unity.meta
-    projectPath: Assets/True Explosions/Scenes/secondTest.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/stressTest.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/stressTest.unity
-    projectPath: Assets/True Explosions/Scenes/stressTest.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/stressTest.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/stressTest.unity.meta
-    projectPath: Assets/True Explosions/Scenes/stressTest.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/wallSphericalTest.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/wallSphericalTest.unity
-    projectPath: Assets/True Explosions/Scenes/wallSphericalTest.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/wallSphericalTest.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/wallSphericalTest.unity.meta
-    projectPath: Assets/True Explosions/Scenes/wallSphericalTest.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/walltest.unity
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/walltest.unity
-    projectPath: Assets/True Explosions/Scenes/walltest.unity
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/Scenes/walltest.unity.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/Scenes/walltest.unity.meta
-    projectPath: Assets/True Explosions/Scenes/walltest.unity.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System.meta
-    projectPath: Assets/True Explosions/System.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Materials.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Materials.meta
-    projectPath: Assets/True Explosions/System/Materials.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Materials/Fireball.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Materials/Fireball.mat
-    projectPath: Assets/True Explosions/System/Materials/Fireball.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Materials/Fireball.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Materials/Fireball.mat.meta
-    projectPath: Assets/True Explosions/System/Materials/Fireball.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Materials/Shokwave.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Materials/Shokwave.mat
-    projectPath: Assets/True Explosions/System/Materials/Shokwave.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Materials/Shokwave.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Materials/Shokwave.mat.meta
-    projectPath: Assets/True Explosions/System/Materials/Shokwave.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Materials/Smoke.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Materials/Smoke.mat
-    projectPath: Assets/True Explosions/System/Materials/Smoke.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Materials/Smoke.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Materials/Smoke.mat.meta
-    projectPath: Assets/True Explosions/System/Materials/Smoke.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Materials/VolumeExplosion.mat
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Materials/VolumeExplosion.mat
-    projectPath: Assets/True Explosions/System/Materials/VolumeExplosion.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Materials/VolumeExplosion.mat.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Materials/VolumeExplosion.mat.meta
-    projectPath: Assets/True Explosions/System/Materials/VolumeExplosion.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs.meta
-    projectPath: Assets/True Explosions/System/Prefabs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/Explosion.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/Explosion.prefab
-    projectPath: Assets/True Explosions/System/Prefabs/Explosion.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/Explosion.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/Explosion.prefab.meta
-    projectPath: Assets/True Explosions/System/Prefabs/Explosion.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/Explosion2D.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/Explosion2D.prefab
-    projectPath: Assets/True Explosions/System/Prefabs/Explosion2D.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/Explosion2D.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/Explosion2D.prefab.meta
-    projectPath: Assets/True Explosions/System/Prefabs/Explosion2D.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/Point light.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/Point
-      light.prefab
-    projectPath: Assets/True Explosions/System/Prefabs/Point light.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/Point light.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/Point
-      light.prefab.meta
-    projectPath: Assets/True Explosions/System/Prefabs/Point light.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/SampleParticleSystem.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/SampleParticleSystem.prefab
-    projectPath: Assets/True Explosions/System/Prefabs/SampleParticleSystem.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/SampleParticleSystem.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/SampleParticleSystem.prefab.meta
-    projectPath: Assets/True Explosions/System/Prefabs/SampleParticleSystem.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/SphereSource.fbx
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/SphereSource.fbx
-    projectPath: Assets/True Explosions/System/Prefabs/SphereSource.fbx
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/SphereSource.fbx.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/SphereSource.fbx.meta
-    projectPath: Assets/True Explosions/System/Prefabs/SphereSource.fbx.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/Volumetric.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/Volumetric.prefab
-    projectPath: Assets/True Explosions/System/Prefabs/Volumetric.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Prefabs/Volumetric.prefab.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Prefabs/Volumetric.prefab.meta
-    projectPath: Assets/True Explosions/System/Prefabs/Volumetric.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts.meta
-    projectPath: Assets/True Explosions/System/Scripts.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects.meta
-    projectPath: Assets/True Explosions/System/Scripts/effects.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents.meta
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/ExploderComponent.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/ExploderComponent.cs
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/ExploderComponent.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/ExploderComponent.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/ExploderComponent.cs.meta
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/ExploderComponent.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/LightComponent.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/LightComponent.cs
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/LightComponent.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/LightComponent.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/LightComponent.cs.meta
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/LightComponent.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/ParticleComponent.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/ParticleComponent.cs
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/ParticleComponent.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/ParticleComponent.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/ParticleComponent.cs.meta
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/ParticleComponent.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/PseudoVolumetricComponent.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/PseudoVolumetricComponent.cs
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/PseudoVolumetricComponent.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/PseudoVolumetricComponent.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/PseudoVolumetricComponent.cs.meta
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/PseudoVolumetricComponent.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent.cs
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent.cs.meta
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent2D.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent2D.cs
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent2D.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent2D.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent2D.cs.meta
-    projectPath: Assets/True Explosions/System/Scripts/effects/exploderComponents/VolumetricComponent2D.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/PseudoVolumetricExplosion.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/PseudoVolumetricExplosion.cs
-    projectPath: Assets/True Explosions/System/Scripts/effects/PseudoVolumetricExplosion.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/effects/PseudoVolumetricExplosion.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/effects/PseudoVolumetricExplosion.cs.meta
-    projectPath: Assets/True Explosions/System/Scripts/effects/PseudoVolumetricExplosion.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/exploders.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/exploders.meta
-    projectPath: Assets/True Explosions/System/Scripts/exploders.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/exploders/Exploder.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/exploders/Exploder.cs
-    projectPath: Assets/True Explosions/System/Scripts/exploders/Exploder.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/exploders/Exploder.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/exploders/Exploder.cs.meta
-    projectPath: Assets/True Explosions/System/Scripts/exploders/Exploder.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/exploders/Exploder2D.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/exploders/Exploder2D.cs
-    projectPath: Assets/True Explosions/System/Scripts/exploders/Exploder2D.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/exploders/Exploder2D.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/exploders/Exploder2D.cs.meta
-    projectPath: Assets/True Explosions/System/Scripts/exploders/Exploder2D.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/exploders/SphereExploder.cs
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/exploders/SphereExploder.cs
-    projectPath: Assets/True Explosions/System/Scripts/exploders/SphereExploder.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Scripts/exploders/SphereExploder.cs.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Scripts/exploders/SphereExploder.cs.meta
-    projectPath: Assets/True Explosions/System/Scripts/exploders/SphereExploder.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Shaders.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Shaders.meta
-    projectPath: Assets/True Explosions/System/Shaders.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Shaders/SphereVolumetricExplosion.shader
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Shaders/SphereVolumetricExplosion.shader
-    projectPath: Assets/True Explosions/System/Shaders/SphereVolumetricExplosion.shader
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Shaders/SphereVolumetricExplosion.shader.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Shaders/SphereVolumetricExplosion.shader.meta
-    projectPath: Assets/True Explosions/System/Shaders/SphereVolumetricExplosion.shader.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures.meta
-    projectPath: Assets/True Explosions/System/Textures.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/explosionramp.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/explosionramp.png
-    projectPath: Assets/True Explosions/System/Textures/explosionramp.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/explosionramp.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/explosionramp.png.meta
-    projectPath: Assets/True Explosions/System/Textures/explosionramp.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/fire4.psd
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/fire4.psd
-    projectPath: Assets/True Explosions/System/Textures/fire4.psd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/fire4.psd.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/fire4.psd.meta
-    projectPath: Assets/True Explosions/System/Textures/fire4.psd.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/fireball.psd
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/fireball.psd
-    projectPath: Assets/True Explosions/System/Textures/fireball.psd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/fireball.psd.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/fireball.psd.meta
-    projectPath: Assets/True Explosions/System/Textures/fireball.psd.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/smoke.tif
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/smoke.tif
-    projectPath: Assets/True Explosions/System/Textures/smoke.tif
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/smoke.tif.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/smoke.tif.meta
-    projectPath: Assets/True Explosions/System/Textures/smoke.tif.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/volumetricDisplacement.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/volumetricDisplacement.png
-    projectPath: Assets/True Explosions/System/Textures/volumetricDisplacement.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/volumetricDisplacement.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/volumetricDisplacement.png.meta
-    projectPath: Assets/True Explosions/System/Textures/volumetricDisplacement.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/wave.png
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/wave.png
-    projectPath: Assets/True Explosions/System/Textures/wave.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/System/Textures/wave.png.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/System/Textures/wave.png.meta
-    projectPath: Assets/True Explosions/System/Textures/wave.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/TrueExplosionsDocumentation.pdf
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/TrueExplosionsDocumentation.pdf
-    projectPath: Assets/True Explosions/TrueExplosionsDocumentation.pdf
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/True Explosions/TrueExplosionsDocumentation.pdf.meta
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/True Explosions/TrueExplosionsDocumentation.pdf.meta
-    projectPath: Assets/True Explosions/TrueExplosionsDocumentation.pdf.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab
-    projectPath: Assets/VolumetricLines/ExampleScenes/ExamplePrefabs/Smoke.prefab
     originalPath: 
     status: 3
     staged: 0
@@ -677,21 +82,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/gfu/cache/branches.yaml
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/gitlog.yaml
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gitlog.yaml
-    projectPath: Library/gfu/cache/gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -707,27 +100,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/InspectorExpandedItems.asset
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/InspectorExpandedItems.asset
     projectPath: Library/InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptMapper
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptMapper
-    projectPath: Library/ScriptMapper
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ShaderCache.db
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ShaderCache.db
-    projectPath: Library/ShaderCache.db
     originalPath: 
     status: 3
     staged: 0
@@ -740,12 +115,6 @@ MonoBehaviour:
   - path: Library/StateCache/Hierarchy/d7e798-mainStage.json
     fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/StateCache/Hierarchy/d7e798-mainStage.json
     projectPath: Library/StateCache/Hierarchy/d7e798-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/StateCache/SceneView/49a8a7-mainStage.json
-    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/StateCache/SceneView/49a8a7-mainStage.json
-    projectPath: Library/StateCache/SceneView/49a8a7-mainStage.json
     originalPath: 
     status: 3
     staged: 0

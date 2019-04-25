@@ -5,6 +5,7 @@ using UnityEngine;
 public class shipCollision : MonoBehaviour
 {
     public GameObject explosion;
+    public AudioSource explosionSound;
 
     // Start is called before the first frame update
     void Start()
@@ -30,12 +31,13 @@ public class shipCollision : MonoBehaviour
         //Explosion handling - Other Ship
         GameObject explode = Instantiate(explosion, collision.transform.position, Quaternion.identity);
         //explode.GetComponent<ParticleSystem>().Play();
-        GameObject.Destroy(explode);
+        GameObject.Destroy(explode, 1.0f);
+        explosionSound.Play();
 
         //Explosion handling - Main Ship
         GameObject explode2 = Instantiate(explosion, transform.position, Quaternion.identity);
         //explode2.GetComponent<ParticleSystem>().Play();
-        GameObject.Destroy(explode);
+        GameObject.Destroy(explode2, 1.0f);
 
         // Destroy Ship
         GameObject.Destroy(collision.gameObject);
