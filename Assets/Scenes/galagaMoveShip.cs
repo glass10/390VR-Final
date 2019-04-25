@@ -85,7 +85,7 @@ public class galagaMoveShip : MonoBehaviour
         // Pause Game
         if(moveAction.GetState(handType1) && moveAction.GetState(handType2) && gameActive)
         {
-            pauseGame();
+            pauseGame(false);
         }
 
         // Resume Game
@@ -97,7 +97,7 @@ public class galagaMoveShip : MonoBehaviour
         // Quit Game
         if (teleportAction.GetState(handType1) && teleportAction.GetState(handType2))
         {
-            quitGame();
+            stopGame();
         }
 
         // Move ship and camera right
