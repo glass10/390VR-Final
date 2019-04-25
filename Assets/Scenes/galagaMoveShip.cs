@@ -80,13 +80,13 @@ public class galagaMoveShip : MonoBehaviour
         }
 
         // Pause Game
-        if(moveAction.GetState(handType1) && moveAction.GetState(handType2))
+        if(moveAction.GetState(handType1) && moveAction.GetState(handType2) && gameActive)
         {
             pauseGame();
         }
 
         // Resume Game
-        if (triggerAction.GetState(handType1) && triggerAction.GetState(handType2))
+        if (triggerAction.GetState(handType1) && triggerAction.GetState(handType2 && !gameActive)
         {
             startGame();
         }
