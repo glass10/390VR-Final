@@ -44,6 +44,9 @@ public class galagaMoveShip : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Delete Additional Player
+        GameObject.Destroy(GameObject.Find("Player-Home"));
+
         //Temp
         spawnWave();
         gameActive = true;
@@ -86,7 +89,7 @@ public class galagaMoveShip : MonoBehaviour
         }
 
         // Resume Game
-        if (triggerAction.GetState(handType1) && triggerAction.GetState(handType2 && !gameActive)
+        if (triggerAction.GetState(handType1) && triggerAction.GetState(handType2) && !gameActive)
         {
             startGame();
         }

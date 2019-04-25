@@ -13,9 +13,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-04-25T11:17:16.509-04:00
+  lastUpdatedAtString: 2019-04-25T11:19:03.937-04:00
   initializedAtString: 2019-04-25T11:17:16.379-04:00
   log:
+  - commitID: 0dac1aca001ac30cf4aa30d407a0abcb28bc5bea
+    mergeA: 
+    mergeB: 
+    authorName: Cameron Glass
+    authorEmail: glass10@purdue.edu
+    commitEmail: glass10@purdue.edu
+    commitName: Cameron Glass
+    summary: Slight fix to pausing and playing
+    description: 
+    timeString: 2019-04-25T11:18:51.000-04:00
+    commitTimeString: 2019-04-25T11:18:51.000-04:00
+    changes:
+    - path: Assets/Scenes/galagaMoveShip.cs
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/galagaMoveShip.cs
+      projectPath: Assets/Scenes/galagaMoveShip.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 978fe60a768d84df9564b21609b5337a4c2a3ac9
     mergeA: 
     mergeB: 
