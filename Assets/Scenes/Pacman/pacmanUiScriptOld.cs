@@ -5,7 +5,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using UnityEngine.SceneManagement;
 
-public class pacmanUiScript : MonoBehaviour
+public class pacmanUiScriptOld : MonoBehaviour
 {
     public static SortedList leaderboard = new SortedList();
     public bool waiting = false;
@@ -52,8 +52,14 @@ public class pacmanUiScript : MonoBehaviour
             else
             {
                 stopGame();
-                pacmanGameController.gameOver = true;
             }
+
+        }
+        else
+        {
+            pacmanGameController.lives++;
+            GameObject textObject1 = GameObject.Find("lives");
+            textObject1.GetComponent<TextMesh>().text = "Lives = " + pacmanGameController.lives;
 
         }
 

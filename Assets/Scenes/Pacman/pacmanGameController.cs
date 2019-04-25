@@ -2,21 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
+using UnityEngine.SceneManagement;
 
 public class pacmanGameController : MonoBehaviour
 {
+    public static SortedList leaderboard = new SortedList();
+    public bool waiting = false;
+    public bool eat = false;
+
     public Camera cam;
     public AudioSource gameSound;
     public AudioSource gameStart;
     public AudioSource gameEnd;
+    public AudioSource chime;
+    public AudioSource eatGhost;
 
     public NavMeshAgent agent;
     public static int score = 0;
     public static int lives = 3;
     public static bool gameActive = false;
-    public bool waiting = false;
-    public static bool gameOver = false;
+
     GameObject player;
+    public Material blue;
+    public Renderer ghost1;
+    public Renderer ghost2;
+    public Renderer ghost3;
+    public Renderer ghost4;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +39,7 @@ public class pacmanGameController : MonoBehaviour
 
         Physics.IgnoreLayerCollision(9, 11);
         player = GameObject.Find("Player");
+        StartCoroutine(pacmanEats(10));
     }
 
     // Update is called once per frame
@@ -42,7 +56,7 @@ public class pacmanGameController : MonoBehaviour
         }
 
         // Move player and camera right
-        if (Input.GetKey("w") && player.transform.position.z < 10 && gameActive)
+        if (Input.GetKey("i") && player.transform.position.z < 10 && gameActive)
         {
             moveForward();
             if (!gameSound.isPlaying)
@@ -51,7 +65,7 @@ public class pacmanGameController : MonoBehaviour
             }
         }
         // Move player and camera left
-        if (Input.GetKey("x") && player.transform.position.z > -10 && gameActive)
+        if (Input.GetKey("k") && player.transform.position.z > -10 && gameActive)
         {
             moveBackward();
             if (!gameSound.isPlaying)
@@ -60,7 +74,7 @@ public class pacmanGameController : MonoBehaviour
             }
         }
 
-        if (Input.GetKey("d") && player.transform.position.x < 10 && gameActive)
+        if (Input.GetKey("l") && gameActive)
         {
             moveRight();
             if (!gameSound.isPlaying)
@@ -69,7 +83,7 @@ public class pacmanGameController : MonoBehaviour
             }
         }
         // Move player and camera left
-        if (Input.GetKey("a") && player.transform.position.x > -10 && gameActive)
+        if (Input.GetKey("j") && player.transform.position.x > -10 && gameActive)
         {
             moveLeft();
             if (!gameSound.isPlaying)
@@ -87,12 +101,6 @@ public class pacmanGameController : MonoBehaviour
         {
             runGame();
         }
-
-        if (gameOver == true)
-        {
-            gameEnd.Play();
-        }
-
     }
 
     IEnumerator Wait(float duration)
@@ -125,7 +133,7 @@ public class pacmanGameController : MonoBehaviour
     {
         Vector3 position = agent.transform.position;
         position = agent.transform.position;
-        position.y += 0.2f;
+        position.x += 0.2f;
         agent.transform.position = position;
     }
 
@@ -154,7 +162,158 @@ public class pacmanGameController : MonoBehaviour
 
     void OnTriggerEnter(Collider collision)
     {
-        Debug.Log("Collision with Player " + collision.gameObject.name);
+        if (collision.gameObject.tag == "bigCoin")
+        {
+            chime.Play();
+            GameObject.Destroy(collision.gameObject);
+            score += 50;
+            Debug.Log("Player Collision with " + collision.gameObject.name);
+            StartCoroutine(pacmanEats(10));
+        }
+        else if (collision.gameObject.tag == "smallCoin")
+        {
+            chime.Play();
+            GameObject.Destroy(collision.gameObject);
+            score += 10;
+            Debug.Log("Player Collision with " + collision.gameObject.name);
+        }
+        else if (collision.gameObject.tag == "Ghost")
+        {
+            Debug.Log("Player Collision with " + collision.gameObject.name);
+            eatGhost.Play();
+            GameObject.Destroy(collision.gameObject);
+            if (eat == true)
+            {
+                score += 200;
+            }
+            else
+            {
+                score -= 200;
+                pauseGame(true); // lose a life
+            }
+        }
+    
+
+        //Update Score
+        GameObject textObject1 = GameObject.Find("score");
+        textObject1.GetComponent<TextMesh>().text = "Score: " + score;
+        GameObject textObject2 = GameObject.Find("score2");
+        textObject2.GetComponent<TextMesh>().text = "Score: " + score;
+
     }
+
+    IEnumerator pacmanEats(float duration)
+    {
+        //This is a coroutine
+        Debug.Log("Pacman Eats");
+        Material g1m = ghost1.material;
+        Material g2m = ghost2.material;
+        Material g3m = ghost3.material;
+        Material g4m = ghost4.material;
+        eat = true;
+        if (ghost1 && ghost2 && ghost3 && ghost4)
+        {
+            ghost1.material = blue;
+            ghost2.material = blue;
+            ghost3.material = blue;
+            ghost4.material = blue;
+        }
+        yield return new WaitForSeconds(duration);   //Wait
+
+        ghost1.material = g1m;
+        ghost2.material = g2m;
+        ghost3.material = g3m;
+        ghost4.material = g4m;
+        eat = false;
+    }
+
+    // Start game
+    public static void startGame(bool newGame)
+    {
+        Debug.Log("Game Started");
+
+        // Set game as active
+        gameActive = true;
+
+    }
+
+    // Pause game
+    public void pauseGame(bool liveDecrement)
+    {
+        Debug.Log("Game Paused");
+        // Set game as inactive
+        gameActive = false;
+
+        //Player lost life
+        if (liveDecrement)
+        {
+            // Update Lives
+            lives--;
+            GameObject textObject1 = GameObject.Find("lives");
+            textObject1.GetComponent<TextMesh>().text = "Lives = " + lives;
+
+            // Restart Game or stop
+            if (lives > 0)
+            {
+                // Restart Game
+                startGame(false);
+            }
+            else
+            {
+                gameEnd.Play();
+                StartCoroutine(Wait(3));
+                stopGame();
+               
+            }
+
+        }
+        else
+        {
+            pacmanGameController.lives++;
+            GameObject textObject1 = GameObject.Find("lives");
+            textObject1.GetComponent<TextMesh>().text = "Lives = " + pacmanGameController.lives;
+
+        }
+
+        // Load UI to make further selections
+    }
+
+    // Quit game
+    public void stopGame()
+    {
+        Debug.Log("Game Stopped");
+
+        // Load pacman Leaderboard
+        if (File.Exists(Application.persistentDataPath + "/pacman.dat"))
+        {
+            BinaryFormatter bf1 = new BinaryFormatter();
+            FileStream fs = File.OpenRead(Application.persistentDataPath + "/pacman.dat");
+            SortedList newLeaderboard = (SortedList)bf1.Deserialize(fs);
+            fs.Close();
+
+            leaderboard = newLeaderboard;
+        }
+
+        // Set game as inactive
+        gameActive = false;
+
+        // Write high score to leaderboard and save
+        int finalScore = score;
+        Debug.Log("Score being Recorded: " + finalScore);
+        if (finalScore != 0)
+        {
+            leaderboard.Add(finalScore, System.DateTime.Now.ToString("MM/dd/yyyy"));
+
+            // Save pacman Leaderboard
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream fs1 = File.Open(Application.persistentDataPath + "/pacman.dat", FileMode.OpenOrCreate);
+            bf.Serialize(fs1, leaderboard);
+            fs1.Close();
+        }
+
+        // Change scenes
+        SceneManager.LoadScene("GameSelection", LoadSceneMode.Single);
+    }
+
 
 }
