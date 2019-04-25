@@ -11,6 +11,10 @@ public class updateLeaderboard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Delete Additional Player
+        GameObject.Destroy(GameObject.Find("Player-Game"));
+
+        //Load Leaderboards
         load();
     }
 

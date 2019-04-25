@@ -1,12 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
+using UnityEngine.SceneManagement;
+using Valve.VR;
+
 
 public class galagaMoveShip : MonoBehaviour
 {
     GameObject ship;
     private RaycastHit hit;
     public GameObject m_shotPrefab;
+    public static SortedList leaderboard = new SortedList();
+
+    //Steam VR Interactions
+    public SteamVR_Input_Sources handType1;
+    public SteamVR_Input_Sources handType2;
+    public SteamVR_Behaviour_Pose controllerPose;
+    public SteamVR_Action_Boolean moveAction;
+    public SteamVR_Action_Boolean triggerAction;
+    public SteamVR_Action_Boolean teleportAction;
 
     // Shared Globals 
     public static int score = 0;
@@ -30,6 +44,9 @@ public class galagaMoveShip : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Delete Additional Player
+        GameObject.Destroy(GameObject.Find("Player-Home"));
+
         //Temp
         spawnWave();
         gameActive = true;
@@ -49,21 +66,56 @@ public class galagaMoveShip : MonoBehaviour
         ship = GameObject.Find("MainShip");
 
         // Move ship and camera right
-        if (Input.GetKey(KeyCode.Period) && ship.transform.position.x < 300 && gameActive)
+        if (moveAction.GetState(handType2) && ship.transform.position.x < 100 && gameActive)
         {
             moveRight();
         }
         // Move ship and camera left
-        if (Input.GetKey(KeyCode.Comma) && ship.transform.position.x > -300 && gameActive)
+        if (moveAction.GetState(handType1) && ship.transform.position.x > -100 && gameActive)
         {
             moveLeft();
         }
 
         // Shoot
-        if (Input.GetKeyDown(KeyCode.Space) && gameActive)
+        if (triggerAction.GetState(handType1) || triggerAction.GetState(handType2) && gameActive)
         {
             shoot();
         }
+
+        // Pause Game
+        if(moveAction.GetState(handType1) && moveAction.GetState(handType2) && gameActive)
+        {
+            pauseGame();
+        }
+
+        // Resume Game
+        if (triggerAction.GetState(handType1) && triggerAction.GetState(handType2) && !gameActive)
+        {
+            startGame();
+        }
+
+        // Quit Game
+        if (teleportAction.GetState(handType1) && teleportAction.GetState(handType2))
+        {
+            quitGame();
+        }
+
+        // Move ship and camera right
+        //if (Input.GetKey(KeyCode.Period) && ship.transform.position.x < 300 && gameActive)
+        //{
+        //    moveRight();
+        //}
+        //// Move ship and camera left
+        //if (Input.GetKey(KeyCode.Comma) && ship.transform.position.x > -300 && gameActive)
+        //{
+        //    moveLeft();
+        //}
+
+        //// Shoot
+        //if (Input.GetKeyDown(KeyCode.Space) && gameActive)
+        //{
+        //    shoot();
+        //}
 
         //Continue Running Game
         if (gameActive && numShips != 0 && waiting == false)
@@ -118,7 +170,7 @@ public class galagaMoveShip : MonoBehaviour
                             GameObject.Destroy(explode, 1.0f);
 
                             // Lose life
-                            uiScript.pauseGame(true);
+                            pauseGame(true);
                         }
                     }
                    
@@ -158,7 +210,7 @@ public class galagaMoveShip : MonoBehaviour
         Debug.Log("Stage Complete");
 
         //Pause Game
-        uiScript.pauseGame(false);
+        pauseGame(false);
 
         // Update Stage #
         stage += 1;
@@ -177,7 +229,7 @@ public class galagaMoveShip : MonoBehaviour
         StartCoroutine(Wait(3));
 
         //Restart game
-        uiScript.startGame(false);
+        startGame();
     }
 
 
@@ -320,5 +372,83 @@ public class galagaMoveShip : MonoBehaviour
                 numShips--;
             }
         } 
+    }
+
+    // Start game
+    void startGame()
+    {
+        Debug.Log("Game Started");
+        //Do countdown
+
+        // Set game as active
+        gameActive = true;
+
+    }
+
+    // Pause game
+    void pauseGame(bool liveDecrement)
+    {
+        Debug.Log("Game Paused");
+        // Set game as inactive
+        gameActive = false;
+
+        //Player lost life
+        if (liveDecrement)
+        {
+            // Update Lives
+            lives--;
+            GameObject textObject1 = GameObject.Find("Lives");
+            textObject1.GetComponent<TextMesh>().text = "Lives: " + lives;
+
+            // Restart Game or stop
+            if (lives > 0)
+            {
+                // Restart Game
+                startGame();
+            }
+            else
+            {
+                stopGame();
+            }
+
+        }
+
+        // Load UI to make further selections
+    }
+
+    // Quit game
+    void stopGame()
+    {
+        Debug.Log("Game Stopped");
+        // Load Galaga Leaderboard
+        if (File.Exists(Application.persistentDataPath + "/galaga.dat"))
+        {
+            BinaryFormatter bf1 = new BinaryFormatter();
+            FileStream fs = File.OpenRead(Application.persistentDataPath + "/galaga.dat");
+            SortedList newLeaderboard = (SortedList)bf1.Deserialize(fs);
+            fs.Close();
+
+            leaderboard = newLeaderboard;
+        }
+
+        // Set game as inactive
+        gameActive = false;
+
+        // Write high score to leaderboard and save
+        int finalScore = galagaMoveShip.score;
+        Debug.Log("Score being Recorded: " + finalScore);
+        if (finalScore != 0)
+        {
+            leaderboard.Add(finalScore, System.DateTime.Now.ToString("MM/dd/yyyy"));
+
+            // Save Galaga Leaderboard
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream fs1 = File.Open(Application.persistentDataPath + "/galaga.dat", FileMode.OpenOrCreate);
+            bf.Serialize(fs1, leaderboard);
+            fs1.Close();
+        }
+
+        // Change scenes
+        SceneManager.LoadScene("GameSelection", LoadSceneMode.Single);
     }
 }

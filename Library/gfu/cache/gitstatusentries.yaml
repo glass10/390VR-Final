@@ -13,21 +13,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-04-25T11:27:12.982-04:00
   initializedAtString: 2019-04-25T09:58:53.545-04:00
+=======
+  lastUpdatedAtString: 2019-04-25T11:03:14.696-04:00
+  initializedAtString: 2019-04-25T10:58:38.857-04:00
+>>>>>>> 387725e3e04c20659c32ccb4a31f7801ac16c6ac
   entries:
-  - path: Assets/Ghost.cs
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Ghost.cs
-    projectPath: Assets/Ghost.cs
+  - path: Assets/Scenes/Galaga.unity
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/Galaga.unity
+    projectPath: Assets/Scenes/Galaga.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scenes/Pacman.unity
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman.unity
-    projectPath: Assets/Scenes/Pacman.unity
+  - path: Assets/Scenes/galagaMoveShip.cs
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Assets/Scenes/galagaMoveShip.cs
+    projectPath: Assets/Scenes/galagaMoveShip.cs
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
   - path: Assets/Scenes/Pacman/pacmanCollision.cs
     fullPath: /Users/audrey/Hacks/VR/390VR-Final/Assets/Scenes/Pacman/pacmanCollision.cs
     projectPath: Assets/Scenes/Pacman/pacmanCollision.cs
@@ -64,14 +70,16 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+=======
+>>>>>>> 387725e3e04c20659c32ccb4a31f7801ac16c6ac
   - path: Library/assetDatabase3
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/assetDatabase3
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/assetDatabase3
     projectPath: Library/assetDatabase3
     originalPath: 
     status: 3
     staged: 0
   - path: Library/EditorInstance.json
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/EditorInstance.json
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
     originalPath: 
     status: 3
@@ -89,23 +97,24 @@ MonoBehaviour:
     status: 3
     staged: 0
   - path: Library/gfu/cache/gitstatusentries.yaml
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Library/gfu/cache/gittrackingstatus.yaml
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/gfu/cache/repoinfo.yaml
     projectPath: Library/gfu/cache/repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
   - path: Library/InspectorExpandedItems.asset
     fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/InspectorExpandedItems.asset
     projectPath: Library/InspectorExpandedItems.asset
@@ -115,23 +124,28 @@ MonoBehaviour:
   - path: Library/ShaderCache.db
     fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/ShaderCache.db
     projectPath: Library/ShaderCache.db
+=======
+  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+>>>>>>> 387725e3e04c20659c32ccb4a31f7801ac16c6ac
     originalPath: 
     status: 3
     staged: 0
   - path: Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/shadercompiler-UnityShaderCompiler0.log
     projectPath: Library/shadercompiler-UnityShaderCompiler0.log
     originalPath: 
     status: 3
     staged: 0
   - path: Library/StateCache/Hierarchy/d7e798-mainStage.json
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/StateCache/Hierarchy/d7e798-mainStage.json
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/StateCache/Hierarchy/d7e798-mainStage.json
     projectPath: Library/StateCache/Hierarchy/d7e798-mainStage.json
     originalPath: 
     status: 3
     staged: 0
   - path: Library/StateCache/SceneView/49a8a7-mainStage.json
-    fullPath: /Users/audrey/Hacks/VR/390VR-Final/Library/StateCache/SceneView/49a8a7-mainStage.json
+    fullPath: /Users/cameron/Documents/CS390-VR/390VR-Final/Library/StateCache/SceneView/49a8a7-mainStage.json
     projectPath: Library/StateCache/SceneView/49a8a7-mainStage.json
     originalPath: 
     status: 3
