@@ -20,6 +20,10 @@ public class galagaMoveShip : MonoBehaviour
     public GameObject boss;
     public GameObject butterfly;
     public GameObject bee;
+    public GameObject explosion;
+
+    public AudioSource laserSound;
+    public AudioSource explosionSound;
 
     public bool waiting = false;
 
@@ -29,8 +33,6 @@ public class galagaMoveShip : MonoBehaviour
         //Temp
         spawnWave();
         gameActive = true;
-        //runGame();
-        //uiScript.startGame(false);
     }
 
     IEnumerator Wait(float duration)
@@ -63,19 +65,8 @@ public class galagaMoveShip : MonoBehaviour
             shoot();
         }
 
-        //TODO: Temp -> Change to collision 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            loseLife();
-        }
-
-        //if(numShips == 0)
-        //{
-        //    Debug.Log("Wave Completed");
-        //}
-
         //Continue Running Game
-        if(gameActive && numShips != 0 && waiting == false)
+        if (gameActive && numShips != 0 && waiting == false)
         {
             runGame();
         }
@@ -86,13 +77,62 @@ public class galagaMoveShip : MonoBehaviour
             completeStage();
         }
 
+        // Move Diving Ships
+        GameObject[] divers = GameObject.FindGameObjectsWithTag("Diving");
+        // Get player position
+        Transform target = GameObject.Find("MainShip").transform;
+        if (gameActive && divers.Length != 0)
+        {
+            for(int i = 0; i < divers.Length; i++)
+            {
+                // Move and rotate towards player
+                float step = (float)((15 * gameSpeed) * Time.deltaTime); // calculate distance to move
+                Transform diveT = divers[i].transform;
+                diveT.position = Vector3.MoveTowards(diveT.position, target.position, step);
+                diveT.LookAt(target);
+
+                //Shoot at ship
+                int randomNum = Random.Range(0, 250);
+                if(randomNum == 9)
+                {
+                    Debug.Log("Shot Fired");
+                    //Raycast
+                    Vector3 fwd = diveT.TransformDirection(Vector3.forward);
+                    if (Physics.Raycast(diveT.position, fwd * 500, out hit, 200))
+                    {
+                        if (hit.transform.name == "MainShip")
+                        {
+                            //Spawn laser
+                            GameObject go = GameObject.Instantiate(m_shotPrefab, diveT.position, diveT.rotation) as GameObject;
+                            GameObject.Destroy(go, 0.5f);
+                            //laserSound.Play();
+
+                            // Destroy Other Ship
+                            GameObject.Destroy(diveT.gameObject);
+                            numShips--;
+
+                            // Animate mainShip smoke
+                            GameObject explode = Instantiate(explosion, target.position, Quaternion.identity);
+                            //explode.GetComponent<ParticleSystem>().Play();
+                            explosionSound.Play();
+                            GameObject.Destroy(explode, 1.0f);
+
+                            // Lose life
+                            uiScript.pauseGame(true);
+                        }
+                    }
+                   
+                }
+            }
+        }
+
     }
 
     void runGame()
     {
             Debug.Log("Game Running");
             //Wait amount of time (Multiplier)
-            float time = (float)(5 / gameSpeed);
+            float time = (float)(5);
             StartCoroutine(Wait(time));
 
             //Pick random ship
@@ -101,16 +141,14 @@ public class galagaMoveShip : MonoBehaviour
             if(size > 0)
             {
                 int randomNum = Random.Range(0, size - 1);
-                if(ships[randomNum] != null)
+                while (!ships[randomNum].name.Contains("Clone"))
+                {
+                    randomNum = Random.Range(0, size - 1);
+                }
+                if(ships[randomNum] && ships[randomNum].name.Contains("(Clone)"))
                 {
                     //Set to diving
                     ships[randomNum].tag = "Diving";
-                }
-
-                if (ships[randomNum] != null)
-                {
-                    //Dive and Fire
-                    dive(ships[randomNum]);
                 }
             }
     }
@@ -130,7 +168,7 @@ public class galagaMoveShip : MonoBehaviour
         textObject1.GetComponent<TextMesh>().text = "Stage: " + stage;
 
         // Update Speed
-        gameSpeed *= 1.5;
+        gameSpeed *= 1.125;
 
         //Spawn new wave
         spawnWave();
@@ -163,25 +201,20 @@ public class galagaMoveShip : MonoBehaviour
         // Spawn Bees
         for (int i = -24; i <= 24; i += 12)
         {
-            Instantiate(bee, new Vector3(i, 3, 75), Quaternion.identity);
+            Instantiate(bee, new Vector3(i, 3, 50), Quaternion.identity);
             numShips++;
         }
     }
 
-    void loseLife()
-    {
-        uiScript.pauseGame(true);
-    }
-
     void dive(GameObject obj)
     {
-        if(obj != null)
+        if(obj)
         {
             Debug.Log("Ship Diving");
-            obj.transform.position = new Vector3(obj.transform.position.x, obj.transform.position.y + 5, obj.transform.position.z);
+            //obj.transform.position = new Vector3(obj.transform.position.x, obj.transform.position.y + 5, obj.transform.position.z);
 
             // Destroy
-            if(obj != null)
+            if(obj)
             {
                 GameObject.Destroy(obj, 3.0f);
             }
@@ -220,6 +253,7 @@ public class galagaMoveShip : MonoBehaviour
         //Create Laser
         GameObject go = GameObject.Instantiate(m_shotPrefab, ship.transform.position, ship.transform.rotation) as GameObject;
         GameObject.Destroy(go, 0.5f);
+        laserSound.Play();
 
         //Do Raycast Things
         Vector3 fwd = ship.transform.TransformDirection(Vector3.forward);
@@ -230,7 +264,7 @@ public class galagaMoveShip : MonoBehaviour
             if (hit.transform.name != "Backdrop Stars")
             {
                 // Get gameobj from ship hit
-                GameObject obj = GameObject.Find(hit.transform.name);
+                GameObject obj = hit.transform.gameObject;
 
                 // Update Score
                 /* Bee: In formation    50
@@ -279,7 +313,7 @@ public class galagaMoveShip : MonoBehaviour
                 textObject1.GetComponent<TextMesh>().text = "Score: " + score;
 
                 // Destroy game object
-                if(obj != null)
+                if(obj)
                 {
                     GameObject.Destroy(obj);
                 }
